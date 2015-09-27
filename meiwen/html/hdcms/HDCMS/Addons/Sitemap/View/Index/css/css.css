@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+}
+body {
+  font: 12px Verdana,Arial,Tahoma;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+div.box {
+  width: 1030px;
+  margin: 0 auto;
+}
+div.box div.header {
+  margin-top: 30px;
+}
+div.box div.sp-title {
+  color: #888;
+  padding: 0px 12px;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  background: url('../image/search-top-bg.gif') repeat-x scroll 0% 0% #f3fbea;
+}
+div.box div.sp-title a {
+  color: #256EB1;
+  text-decoration: none;
+}
+div.box div.sp-title h2 {
+  font-size: 14px;
+  line-height: 27px;
+}
+div.box div.sp-title span {
+  float: right;
+  margin: -27px 0px;
+  line-height: 27px;
+}
+div.box div.linkbox {
+  padding: 10px 8px;
+  border-bottom: 1px solid #EEE;
+}
+div.box div.linkbox h3 {
+  font-size: 14px;
+  color: #693;
+}
+div.box div.linkbox h3 a {
+  font-size: 14px;
+  color: #693;
+}
+div.box div.linkbox ul {
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  padding-bottom: 10px;
+  list-style: outside none none;
+}
+div.box div.linkbox ul li {
+  float: left;
+  line-height: 14px;
+  padding: 8px 10px 0px;
+  white-space: nowrap;
+}
+div.box div.linkbox ul li a {
+  color: #666;
+  float: left;
+}

@@ -1,0 +1,358 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+  font-size: 12px;
+  color: #333;
+}
+
+/* ===================================--|分页|--========================================*/
+div.page1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  float: right;
+  color: #666;
+}
+
+/*当前页*/
+div.page1 strong, div.page1 a {
+  padding: 3px 10px;
+  display: block;
+  float: left;
+  border: solid 1px #dcdcdc;
+  margin-right: 5px;
+  font-size: 12px;
+
+}
+
+div.page1 strong {
+
+}
+
+/**上一页与下一页失效状态*/
+div.page1 span.close {
+  padding: 3px 10px;
+  display: block;
+  float: left;
+  font-size: 12px;
+  border: solid 1px #dcdcdc;
+  margin-right: 5px;
+  color: #ccc;
+  cursor: no-drop;
+}
+
+div.page1 strong {
+  display: block;
+  font-size: 12px;
+  float: left;
+  background: none repeat scroll 0 0 #488FCF !important;
+  border-color: #2470B5 #488FCF #488FCF;
+  color: #FFFFFF !important;
+}
+
+div.page1 a {
+  color: #333;
+  float: left;
+  display: block;
+
+}
+
+div.page1 a:hover {
+  background: none repeat scroll 0 0 #488FCF !important;
+  border-color: #2470B5 #488FCF #488FCF;
+  color: #FFFFFF !important;
+}
+
+div.page1 span.count {
+  font-size: 12px;
+  float: left;
+  display: block;
+  margin-right: 5px;
+  padding: 3px 10px;
+}
+table.table1{
+  th{
+    background: none !important;
+    border-right: none !important;
+    font-weight: normal !important;
+  }
+  tr:hover,td:hover {
+    background: url("../image/tr_border.png") repeat-x scroll 0 bottom rgba(0, 0, 0, 0)!important;
+  }
+}
+//END
+table.table2 {
+  border: none;
+  color: #666;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px !important;
+}
+
+table.table2 tr:hover {
+  //  background: #eaeff2;
+}
+
+table.table2 thead th, table.table2 thead td {
+  background: none repeat scroll 0 0 #f3f3f3;
+  border-top: 1px solid #cccccc;
+  border-bottom: solid 1px #DDDDDD;
+  overflow: hidden;
+}
+
+table.table2 tr, table.table2 th, table.table2 td {
+  background: url("../image/tr_border.png") repeat-x scroll 0 bottom rgba(0, 0, 0, 0);
+  height: 20px;
+  padding: 8px 8px;
+  overflow: hidden;
+  font-size:12px !important;
+  a{
+    font-size:12px;
+  }
+}
+
+body {
+  background: #F8F8F8;
+}
+
+.btn {
+  display: block;
+  height: 30px;
+  text-align: center;
+  background: #ffffff;
+  border: solid 1px #226bb0;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 6px;
+  padding: 0px 25px;
+  margin-right: 15px;
+  color: #226bb0;
+  float: left;
+  &:hover {
+    background: #226bb0;
+    color: #ffffff;
+  }
+}
+
+input, textarea {
+  outline: none;
+}
+
+select {
+  option {
+    padding: 2px 5px;
+    &:disabled{
+      color:#AAAAAA;
+    }
+  }
+}
+
+a {
+  font-size: 14px;
+  color: #226bb0;
+  text-decoration: none;
+}
+
+div.top {
+  background: #226bb0;
+  height: 80px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  div.top_warp {
+    width: 1030px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    div.logo {
+      float: left;
+      width: 260px;
+      margin-top: 20px;
+    }
+    div.top_menu {
+      float: left;
+      color: #ffffff;
+      a {
+        font-size: 19px;
+        color: #fff;
+        display: block;
+        float: left;
+        height: 80px;
+        line-height: 90px;
+        padding: 0px 20px;
+        &:hover, &.cur {
+          background: #ffffff;
+          color: #333;
+        }
+      }
+      a.login {
+        background: #5998d7;
+        color: #ffffff;
+        float: right;
+        position: absolute;
+        right: 0px;
+        img.user {
+          width: 30px;
+          height: 30px;
+          vertical-align: middle;
+          border-radius: 30px;
+          border: solid 1px #DCDCDC;
+          margin-top: -8px;
+        }
+      }
+    }
+  }
+}
+
+div.wrap {
+  width: 1030px;
+  margin: 0 auto;
+  position: relative !important;
+  top: 100px !important;
+  padding:0px !important;
+  div.menu {
+    width: 230px;
+    background: #ffffff;
+    padding: 0 20px 20px 0px;
+    min-height: 550px;
+    float: left;
+    dl {
+      dt {
+        font-size: 20px;
+        border-bottom: solid 1px #cccccc;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+      }
+      dd {
+        a {
+          display: block;
+          line-height: 45px;
+          text-indent: 30px;
+          color: #666666;
+          &.cur {
+            border-left: solid 3px #226bb0;
+            text-indent: 27px;
+            color: #226bb0;
+          }
+        }
+      }
+    }
+  }
+  div.content {
+    width: 760px;
+    float: right;
+    min-height: 570px;
+    background: #fff;
+    div.message {
+      background: #fffdfa;
+      padding: 20px 30px;
+      border: 1px dashed #f29b76;
+      margin-bottom: 20px;
+      h1 {
+        margin-bottom: 20px;
+      }
+      p {
+        color: #666666;
+      }
+    }
+    div.list {
+      div.header {
+        height: 35px;
+        border-top: solid 3px #226bb0;
+        border-bottom: solid 1px #F3F3F3;
+        background: #ffffff;
+        text-indent: 15px;
+        line-height: 35px;
+        font-size: 14px;
+      }
+      div.article_menu {
+        padding: 10px 15px;
+      }
+      div.article {
+        background: #ffffff;
+        padding: 10px 15px;
+        table.table_form {
+          border-collapse: collapse;
+          width: 100%;
+          th, td {
+            border: solid 1px #F3F3F3;
+            padding: 10px 12px;
+            input {
+              margin: 0px;
+            }
+            a {
+              display: inline-block;
+              font-size: 14px;
+              background: #226bb0;
+              border: solid 1px #226bb0;
+              padding: 5px 30px;
+              color: #ffffff;
+              &:hover {
+                border: solid 1px #666;
+              }
+            }
+          }
+        }
+        table.row_show {
+          border-collapse: collapse;
+          width: 100%;
+          th, td {
+            border: solid 1px #F3F3F3;
+            padding: 15px;
+            a {
+              display: inline-block;
+              font-size: 14px;
+              background: #226bb0;
+              border: solid 1px #226bb0;
+              padding: 5px 30px;
+              color: #ffffff;
+              &:hover {
+                border: solid 1px #666;
+              }
+            }
+            &.l {
+              text-align: left;
+            }
+            &.r {
+              text-align: right;
+            }
+          }
+        }
+      }
+      div.form {
+        label {
+          display: block;
+          color: #226bb0;
+          padding: 10px 0px;
+        }
+        textarea {
+          border: solid 1px #ccc;
+          background: #ffffff;
+          &:hover {
+            border: solid 1px #666;
+          }
+        }
+        input[type=text], input[type=password], input[type=email] {
+          vertical-align: middle;
+          display: inline-block;
+          font-size: 14px;
+          border: solid 1px #ccc;
+          background: #ffffff;
+          width: 420px;
+          height: 30px;
+          padding-left: 10px;
+          &:hover {
+            border: solid 1px #666;
+          }
+        }
+
+      }
+    }
+  }
+}
+

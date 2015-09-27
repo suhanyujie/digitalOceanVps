@@ -1,0 +1,2 @@
+rewriteengine on  #开启引擎
+    RewriteRule .* 8hao.wohenben.tk/uctoo/index.php    

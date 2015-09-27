@@ -1,0 +1,198 @@
+[ 2015-08-25T11:48:22+08:00 ] 203.130.43.155 /wwwroot/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003864s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/c6bbce5b1f1dcf027c8ceb5cf5141b65.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003975s ]
+
+[ 2015-08-25T11:57:29+08:00 ] 14.18.236.93 /wwwroot/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000700s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/c6bbce5b1f1dcf027c8ceb5cf5141b65.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-08-25T12:11:47+08:00 ] 183.16.162.27 /wwwroot/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000584s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/c6bbce5b1f1dcf027c8ceb5cf5141b65.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2015-08-25T12:25:14+08:00 ] 101.226.89.121 /wwwroot/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000431s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/c6bbce5b1f1dcf027c8ceb5cf5141b65.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2015-08-25T12:25:18+08:00 ] 180.153.201.64 /wwwroot/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000332s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/c6bbce5b1f1dcf027c8ceb5cf5141b65.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-08-25T13:13:39+08:00 ] 121.12.111.141 /wwwroot/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001830s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/c6bbce5b1f1dcf027c8ceb5cf5141b65.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014915s ]
+
+[ 2015-08-25T13:49:41+08:00 ] 116.228.152.202 /wwwroot/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000362s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/c6bbce5b1f1dcf027c8ceb5cf5141b65.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-08-25T13:49:47+08:00 ] 116.228.152.202 /wwwroot/install.php?s=/install/step1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/1afb52484deba53b245c0d598473848f.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-08-25T13:49:54+08:00 ] 116.228.152.202 /wwwroot/install.php?s=/install/step2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000343s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined index: update /www/meiwen/html/wwwroot/Runtime/Cache/Install/6236e16d6fb6c3909456d5deb3fb62de.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+

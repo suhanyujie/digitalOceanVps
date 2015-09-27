@@ -1,0 +1,74 @@
+<extend name="Base/common"/>
+
+<block name="body">
+    <link type="text/css" rel="stylesheet" href="__CSS__/home.css"/>
+    <!-- 主体 -->
+    <!--顶部Banner-->
+<!--  Start	-->
+  <div class="container">
+  	<div class="col-md-8">
+		<section class="items items-hover">
+          <volist name="list" id="vo">
+          <div class="item">
+            <div class="item-heading">
+              <div class="pull-right"><a href="###"><i class="icon-pencil"></i> edit</a> &nbsp;<a href="#"><i class="icon-remove"></i> delete</a></div>
+              <h4><span class="label label-success">左岸</span>&nbsp; <a href="{$vo.source}">{$vo.title}</a></h4>
+            </div>
+            <div class="item-content">
+              <div class="media pull-left">
+              	<if condition="empty($vo['pi_src']) eq false" >
+                <div class="media-place-holder" style="width:200px;height:100px;line-height:100px">200x100</div>
+               	</if>
+              </div>
+              <div class="text">
+                {$vo.desc}
+              </div>
+            </div>
+            <div class="item-footer">
+              <span class="label">tag1</span>
+              &nbsp;
+              <a href="javascript:void(0)" class="text-muted"><i class="icon-comments"></i> 243</a>&nbsp;
+              <span class="text-muted">{$vo.publishTime|date="Y-m-d",###}</span>
+            </div>
+          </div>
+          </volist>
+          
+         </section>
+  	</div>
+  	
+  	
+  	
+  		<section class="row">
+  			<div class="col-md-4 dashboard dashboard-draggable" data-id="1" data-order="1">
+           		<div class="panel" id="panel3" data-id="3">
+              <div class="panel-heading"><div class="panel-actions"><button class="btn btn-mini"><i class="icon-refresh"></i></button><button class="btn btn-mini btn-danger remove-panel"><i class="icon-remove"></i></button></div>
+            	最新文章推荐
+              </div>
+              <div class="panel-body" style="height: 264px;">
+                <div class="list-group" contenteditable="false">
+	        	 	<volist name="recList" id="vo1">
+				      	<a href="{$vo1.source}" class="list-group-item">{$vo1.title}</a>
+	                 </volist>
+			    </div>
+                 
+                  
+                
+              </div>
+            </div>
+          	</div>
+  			
+  		</section>
+  	
+  	
+  	
+  	
+  	
+  </div>
+  
+  
+    	
+<!--  End	-->
+  
+
+
+</block>

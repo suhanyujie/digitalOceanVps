@@ -1,0 +1,150 @@
+body {
+  background: url("../img/main.jpg") repeat center top transparent;
+  font: 12px/1.5 "Microsoft Yahei", "Calibri";
+}
+div.step {
+  width: 780px;
+  height: auto;
+  overflow: hidden;
+  margin: 0px auto;
+  color: #392D37;
+  top: 20px;
+  padding-top: 20px;
+  position: relative;
+  box-shadow: 0px 0px 15px #333;
+  border: solid 0px #392D37;
+}
+div.step div.btn {
+  margin: 20px auto;
+  text-align: center;
+}
+div.step div.bg {
+  background: #f6f6f6;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  opacity: 0.6;
+}
+div.step div.index {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  overflow: hidden;
+  padding: 420px 0px 10px 0px;
+  background: url('../img/team.png') no-repeat center top;
+}
+div.step div.index h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #392D37;
+  text-align: center;
+  margin-bottom: 10px;
+}
+div.step div.copyright {
+  position: relative;
+  z-index: 100;
+}
+div.step div.copyright div.license {
+  width: 700px;
+  height: 330px;
+  margin: 15px;
+  border: solid 1px #cccccc;
+  overflow-y: auto;
+  font-size: 12px;
+  line-height: 1.8em;
+  padding: 10px 20px 20px 10px;
+}
+div.step div.environment {
+  position: relative;
+  z-index: 100;
+}
+div.step div.database {
+  position: relative;
+  z-index: 100;
+}
+div.step div.Complete {
+  position: relative;
+  z-index: 100;
+}
+div.step div.Complete div.success {
+  margin: 50px;
+  text-align: center;
+}
+div.step div.Complete div.success h2 {
+  font-size: 35px;
+  color: #503755;
+  height: 50px;
+  margin-bottom: 45px;
+}
+div.step div.Complete div.success h2 span {
+  display: block;
+  margin-top: 10px;
+  color: #000;
+  padding: 10px;
+  font-size: 14px;
+}
+div.step div.Complete div.success div.link {
+  padding-top: 20px;
+}
+div.step div.title {
+  font-size: 35px;
+  width: 800px;
+  text-align: center;
+  color: #503755;
+  margin-bottom: 30px;
+}
+div.step div.process {
+  margin: 0 auto;
+  width: 750px;
+  height: auto;
+  overflow: hidden;
+}
+div.step div.process ul li {
+  font-size: 16px;
+  color: #624362;
+  float: left;
+  width: 95px;
+  padding-left: 50px;
+  height: 40px;
+  border-bottom: solid 3px #274B6F;
+}
+div.step div.process ul li.current {
+  color: #2A1A3F;
+}
+div.step div.set {
+  height: auto;
+  padding: 10px 20px;
+}
+div.step div.set h3 {
+  color: #392D37;
+}
+div.step div.set table {
+  width: 100%;
+}
+div.step div.set table th,
+div.step div.set table td {
+  text-align: left;
+  border-bottom: solid 1px #cccccc;
+  padding: 5px;
+}
+div.step div.set table th .input,
+div.step div.set table td .input {
+  padding: 3px 10px;
+  width: 200px;
+}
+div.step div.set table th span.dir_error,
+div.step div.set table td span.dir_error {
+  background: url("../img/ico.gif") 0px -153px no-repeat;
+  padding-left: 18px;
+}
+div.step div.set table th span.dir_success,
+div.step div.set table td span.dir_success {
+  background: url("../img/ico.gif") 0px -106px no-repeat;
+  padding-left: 18px;
+}
+div.step div.set table th {
+  color: #30254F;
+}

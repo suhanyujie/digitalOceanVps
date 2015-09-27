@@ -1,0 +1,18 @@
+body{
+    background: #FFFFFF;
+    padding: 0px;
+    margin: 0px;;
+}
+
+.imagelist ul li{
+    float:left;
+    margin:5px;
+    border:solid 2px #dcdcdc;
+    width:80px;
+    height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imagelist ul li.active{
+    border:solid 2px #ff0000;
+}

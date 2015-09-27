@@ -1,0 +1,225 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+  font-size: 14px;
+  color: #333;
+}
+
+body {
+  background: #F8F8F8;
+}
+
+input, textarea {
+  outline: none;
+}
+
+a {
+  font-size: 14px;
+  color: #226bb0;
+  text-decoration: none;
+}
+
+div.top {
+  background: #226bb0;
+  height: 80px;
+  margin-bottom: 20px;
+  position: fixed;
+  left:0px;
+  right:0px;
+  z-index: 1000;
+  div.top_warp {
+    width: 1030px;
+    margin: 0 auto;
+    div.logo {
+      float: left;
+      width: 300px;
+      margin-top:20px;
+    }
+    div.top_menu {
+      float: left;
+      color: #ffffff;
+      a {
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        float: left;
+        height: 80px;
+        line-height: 90px;
+        padding: 0px 20px;
+        &:hover,&.cur {
+          background: #ffffff;
+          color: #333;
+        }
+        img.user{
+          width:30px;
+          height: 30px;
+          vertical-align: middle;
+          border-radius: 30px;
+          border:solid 1px #DCDCDC;
+          margin-top:-8px;
+        }
+      }
+
+    }
+  }
+}
+
+div.wrap {
+  width: 1030px;
+  margin: 0 auto;
+  position: relative;
+  top:100px;
+  div.menu {
+    width: 230px;
+    background: #ffffff;
+    padding: 0 20px 20px 0px;
+    float: left;
+    dl {
+      dt {
+        font-size: 20px;
+        border-bottom: solid 1px #cccccc;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+      }
+      dd {
+        a {
+          display: block;
+          line-height: 45px;
+          text-indent: 30px;
+          color: #666666;
+          &.cur {
+            border-left: solid 3px #226bb0;
+            text-indent: 27px;
+            color: #226bb0;
+          }
+        }
+      }
+    }
+  }
+  div.content {
+    width: 760px;
+    float: right;
+    div.message {
+      background: #fffdfa;
+      padding: 20px 30px;
+      border: 1px dashed #f29b76;
+      margin-bottom: 20px;
+      h1 {
+        margin-bottom: 20px;
+      }
+      p {
+        color: #666666;
+      }
+    }
+    div.list {
+      div.header {
+        height: 35px;
+        border-top: solid 3px #226bb0;
+        background: #ffffff;
+        text-indent: 20px;
+        line-height: 35px;
+      }
+      div.article {
+        background: #ffffff;
+        table.table_form {
+          border-collapse: collapse;
+          width: 100%;
+          th, td {
+            border: solid 1px #F3F3F3;
+            padding: 10px 12px;
+            input{
+              margin: 0px;
+            }
+            a {
+              display: inline-block;
+              font-size: 14px;
+              background: #226bb0;
+              border: solid 1px #226bb0;
+              padding: 5px 30px;
+              color: #ffffff;
+              &:hover {
+                border: solid 1px #666;
+              }
+            }
+          }
+        }
+        table.row_show {
+          border-collapse: collapse;
+          width: 100%;
+          th, td {
+            border: solid 1px #F3F3F3;
+            padding: 15px;
+            a {
+              display: inline-block;
+              font-size: 14px;
+              background: #226bb0;
+              border: solid 1px #226bb0;
+              padding: 5px 30px;
+              color: #ffffff;
+              &:hover {
+                border: solid 1px #666;
+              }
+            }
+            &.l {
+              text-align: left;
+            }
+            &.r {
+              text-align: right;
+            }
+          }
+        }
+      }
+      div.form {
+        padding: 30px 20px;
+        border-top: solid 1px #F3F3F3;
+        label {
+          display: block;
+          color: #226bb0;
+          padding-bottom: 10px;
+        }
+        textarea{
+          border: solid 1px #ccc;
+          background: #ffffff;
+          &:hover {
+            border: solid 1px #666;
+          }
+        }
+        input[type=text], input[type=password] {
+          vertical-align: middle;
+          display: block;
+          font-size: 14px;
+          border: solid 1px #ccc;
+          background: #ffffff;
+          width: 420px;
+          height: 30px;
+          padding-left: 10px;
+          margin-bottom: 20px;
+          &:hover {
+            border: solid 1px #666;
+          }
+        }
+        input[type=submit] {
+          display: block;
+          width: 180px;
+          height: 35px;
+          text-align: center;
+          background: #ffffff;
+          border: solid 1px #226bb0;
+          cursor: pointer;
+          font-size: 18px;
+          margin-top: 15px;
+          color: #226bb0;
+          &:hover {
+            background: #226bb0;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+

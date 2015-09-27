@@ -1,0 +1,131 @@
+div#comment {
+  height: auto;
+  overflow: hidden;
+  color: #666666 !important;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+div#comment div.comment-total {
+  font-size: 16px !important;
+  border-bottom: solid 1px #DDDDDD;
+  padding: 10px 10px;
+}
+div#comment div.comment-list {
+  padding: 15px 0px;
+  margin: 0px 20px;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #D4D4D4;
+}
+div#comment div.comment-list h1 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: normal;
+  padding: 15px;
+}
+div#comment div.comment-list div.icon {
+  float: left;
+  width: 50px;
+}
+div#comment div.comment-list div.icon img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+div#comment div.comment-list div.comment-body {
+  margin-left: 50px;
+}
+div#comment div.comment-list div.comment-body div.comment-author {
+  padding-bottom: 5px;
+}
+div#comment div.comment-list div.comment-body div.comment-author div.comment-time {
+  display: inline-block;
+  margin-left: 10px;
+  color: #999;
+}
+div#comment div.comment-list div.comment-body div.comment-author a.praise {
+  color: #008200;
+  display: inline-block;
+  padding-left: 5px;
+}
+div#comment div.comment-list div.comment-body div.comment-author div.reply-link {
+  float: right;
+}
+div#comment div.comment-list div.comment-body div.comment-content {
+  word-wrap: break-word;
+  padding-bottom: 5px;
+}
+div#comment div.comment-list div.comment-body div.comment-content p {
+  font-size: 12px;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body {
+  margin: 0px 0px 0px;
+  padding: 10px 0px;
+  border-top: 1px dotted #D4D4D4;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body div.reply-icon {
+  width: 50px;
+  float: left;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body div.reply-icon img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body div.reply-box {
+  height: auto;
+  overflow: hidden;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body div.reply-box div.reply-author {
+  height: 20px;
+  overflow: hidden;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body div.reply-box div.reply-author div.user {
+  float: left;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body div.reply-box div.reply-author div.reply-del {
+  float: right;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-list div.reply-body div.reply-box div.reply-author div.reply-del a {
+  display: inline-block;
+  margin-left: 6px;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-form {
+  display: none;
+  padding: 10px 10px 0px;
+  background: #F5F5F5;
+}
+div#comment div.comment-list div.comment-body div.reply div.reply-form textarea.reply-form {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 5px;
+}
+div#comment div.comment-form {
+  padding: 10px 0px 0px 10px;
+}
+div#comment div.comment-form p {
+  font-size: 12px;
+}
+div#comment div.comment-form div.NoComment {
+  text-align: center;
+}
+div#comment div.comment-form textarea {
+  width: 98%;
+  height: 100px;
+  font-size: 14px;
+  color: #666;
+}
+div#comment div.comment-form div.submit {
+  margin-right: 30px;
+  font-size: 14px;
+}
+div.hd-page {
+  font-size: 12px !important;
+}
+.hd-page span,
+.hd-page a,
+.hd-page strong {
+  padding: 2px 8px;
+  text-align: center;
+  margin: 3px 0px;
+}

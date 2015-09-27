@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+  font-size: 14px;
+  color: #333;
+}
+input,
+textarea {
+  outline: none;
+}
+a {
+  font-size: 14px;
+  color: #226bb0;
+  text-decoration: none;
+}
+div.left {
+  width: 400px;
+  background: #F0F0F0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+div.left .icon {
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: -90px;
+}
+div.left .icon p {
+  font-size: 12px;
+  height: 15px;
+  color: #777;
+  line-height: 18px;
+}
+div.right {
+  position: absolute;
+  left: 480px;
+  top: 100px;
+}
+div.right .logo p {
+  margin-top: 30px;
+  color: #226bb0;
+  font-size: 20px;
+  line-height: 35px;
+}
+div.right div.form div.reg {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+div.right div.form div.input {
+  margin-bottom: 30px;
+}
+div.right div.form div.input input[type=text],
+div.right div.form div.input input[type=email],
+div.right div.form div.input input[type=password] {
+  font-size: 14px;
+  border: solid 1px #ccc;
+  background: #f3f3f3;
+  width: 420px;
+  height: 40px;
+  padding-left: 10px;
+}
+div.right div.form div.input input[type=text]:hover,
+div.right div.form div.input input[type=email]:hover,
+div.right div.form div.input input[type=password]:hover {
+  border: solid 1px #666;
+}
+div.right div.form div.input input[type=submit] {
+  width: 180px;
+  height: 45px;
+  text-align: center;
+  background: #ffffff;
+  border: solid 1px #226bb0;
+  cursor: pointer;
+  font-size: 18px;
+}
+div.right div.form div.input input[type=submit]:hover {
+  background: #226bb0;
+  color: #fff;
+}
+div.right div.form .getpassword {
+  margin-top: 20px;
+}
+div.right .copyright {
+  font-size: 14px;
+  color: #999;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

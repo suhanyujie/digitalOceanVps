@@ -1,0 +1,242 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+  font-size: 14px;
+  color: #333;
+}
+ol,
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+/* ===================================--|分页|--========================================*/
+div.page1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  float: right;
+  color: #666;
+}
+/*当前页*/
+div.page1 strong,
+div.page1 a {
+  padding: 3px 10px;
+  display: block;
+  float: left;
+  border: solid 1px #dcdcdc;
+  margin-right: 5px;
+  font-size: 12px;
+}
+/**上一页与下一页失效状态*/
+div.page1 span.close {
+  padding: 3px 10px;
+  display: block;
+  float: left;
+  font-size: 12px;
+  border: solid 1px #dcdcdc;
+  margin-right: 5px;
+  color: #ccc;
+  cursor: no-drop;
+}
+div.page1 strong {
+  display: block;
+  font-size: 12px;
+  float: left;
+  background: none repeat scroll 0 0 #488FCF !important;
+  border-color: #2470B5 #488FCF #488FCF;
+  color: #FFFFFF !important;
+}
+div.page1 a {
+  color: #333;
+  float: left;
+  display: block;
+}
+div.page1 a:hover {
+  background: none repeat scroll 0 0 #488FCF !important;
+  border-color: #2470B5 #488FCF #488FCF;
+  color: #FFFFFF !important;
+}
+div.page1 span.count {
+  font-size: 12px;
+  float: left;
+  display: block;
+  margin-right: 5px;
+  padding: 3px 10px;
+}
+table.table1 th {
+  background: none !important;
+  border-right: none !important;
+  font-weight: normal !important;
+}
+table.table1 tr:hover,
+table.table1 td:hover {
+  background: url("../image/tr_border.png") repeat-x scroll 0 bottom rgba(0, 0, 0, 0) !important;
+}
+div.wrap {
+  background: url("../image/space_bg.jpg") no-repeat #96d4f2;
+}
+div.wrap div.content {
+  width: 980px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+div.wrap div.content div.top_pic {
+  height: 260px;
+  background: url("../image/space_ad.jpg");
+  text-indent: -9999px;
+}
+div.wrap div.content div.about {
+  background: #F5F7FA;
+  padding-left: 20px;
+  height: 100px;
+  border-bottom: solid 1px #dddddd;
+  position: relative;
+}
+div.wrap div.content div.about div.feeb {
+  border: solid 3px #ffffff;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -65px;
+  overflow: hidden;
+  border-radius: 10px;
+  left: 10px;
+}
+div.wrap div.content div.about div.feeb img {
+  width: 150px;
+  height: 150px;
+}
+div.wrap div.content div.about div.userinfo {
+  float: left;
+  margin-top: 30px;
+  margin-left: 160px;
+}
+div.wrap div.content div.about div.userinfo div.username {
+  margin-bottom: 6px;
+}
+div.wrap div.content div.about div.userinfo div.username span.userinfo_username {
+  font-size: 18px;
+  height: 26px;
+  line-height: 26px;
+}
+div.wrap div.content div.about div.userinfo div.userinfo_userdata {
+  color: #797C80;
+  font-size: 12px;
+}
+div.wrap div.content div.about div.userinfo div.userinfo_userdata span {
+  color: #999;
+  font-size: 14px;
+  font-weight: normal !important;
+}
+div.wrap div.content div.about div.userinfo div.userinfo_userdata span b {
+  color: #333333;
+  font-size: 14px;
+}
+div.wrap div.content div.about div.userinfo div.userinfo_userdata span.sex_boy {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url("../image/icon_group.png") no-repeat 0px -63px;
+}
+div.wrap div.content div.about div.userinfo_shortcut {
+  padding-right: 20px;
+  float: right;
+  margin-top: 70px;
+  font-size: 12px;
+  color: #797C80;
+}
+div.wrap div.content div.about div.userinfo_shortcut a {
+  color: #797C80;
+  font-size: 12px;
+}
+div.wrap div.content div.content_wrap {
+  clear: both;
+  background: #ffffff;
+  width: 980px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+div.wrap div.content div.content_wrap div.article_list {
+  width: 720px;
+  *width: 680px;
+  height: 600px;
+  float: left;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+div.wrap div.content div.content_wrap div.article_list h1.list_title {
+  padding: 0px;
+  margin: 0px;
+  color: #494A4C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  border-left: solid 2px #226bb0;
+  text-indent: 10px;
+}
+div.wrap div.content div.content_wrap div.article_list ul li {
+  height: 35px;
+  border-bottom: 1px dotted #E1E3E6;
+  margin-top: 20px;
+}
+div.wrap div.content div.content_wrap div.article_list ul li div.addtime {
+  font-size: 12px;
+  color: #919499;
+  float: right;
+}
+div.wrap div.content div.content_wrap div.article_list ul li div.article_content {
+  float: left;
+  vertical-align: top;
+}
+div.wrap div.content div.content_wrap div.article_list ul li div.article_content span {
+  display: inline-block;
+  float: left;
+}
+div.wrap div.content div.content_wrap div.article_list ul li div.article_content span.post_ico {
+  width: 20px;
+  height: 20px;
+  background: url("../image/icon_group.png") no-repeat -45px -60px;
+}
+div.wrap div.content div.content_wrap div.article_list ul li div.article_content span.post_content a {
+  color: #616366;
+  font-size: 14px;
+}
+div.wrap div.content div.content_wrap div.follow {
+  width: 230px;
+  height: 600px;
+  float: right;
+  background: #F7F9FB;
+  padding: 10px;
+  border-left: solid 1px #cccccc;
+}
+div.wrap div.content div.content_wrap div.follow h1 {
+  clear: both;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #494a4c;
+  padding: 0px;
+  margin: 10px 0px 20px 0px;
+}
+div.wrap div.content div.content_wrap div.follow ul li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+div.wrap div.content div.content_wrap div.follow ul li img {
+  height: 43px;
+  width: 43px;
+  border-radius: 5px;
+}
+div.wrap div.copyright {
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  width: 980px;
+  line-height: 2em;
+  padding-bottom: 10px;
+  margin: 10px auto 0px;
+}

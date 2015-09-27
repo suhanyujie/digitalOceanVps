@@ -1,0 +1,6 @@
+/*栏目图片*/
+img#catimage {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}

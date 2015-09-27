@@ -1,0 +1,15 @@
+body{
+    background: #FFFFFF;
+}
+b.dir,b.file{
+    display: block;
+    width: 30px;
+    height: 22px;
+    text-indent: -9999px;
+}
+b.dir{
+    background: url('../../../../../Static/image/icon.gif') no-repeat scroll;
+}
+b.file{
+    background: url('../../../../../Static/image/icon.gif') no-repeat scroll -160px -80px;
+}
