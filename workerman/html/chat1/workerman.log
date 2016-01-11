@@ -129,3 +129,430 @@
 2015-09-30 16:56:43 Workerman[start.php] start in DEBUG mode
 2015-09-30 17:00:06 Workerman[start.php] Stopping ...
 2015-09-30 17:00:06 Workerman[start.php] has been stopped
+2015-12-03 20:33:27 Workerman[start.php] -d 
+2015-12-03 20:33:27 Workerman[start.php] not run
+2015-12-03 20:33:41 Workerman[start.php] start in DEBUG mode
+2015-12-03 20:33:49 Workerman[start.php] start in DEBUG mode
+2015-12-03 20:36:54 Workerman[start.php] start in DEBUG mode
+2015-12-03 20:38:41 Workerman[start.php] Stopping ...
+2015-12-03 20:38:41 Workerman[start.php] has been stopped
+2015-12-03 20:46:06 Workerman[start.php] start in DEBUG mode
+2015-12-03 21:54:46 Workerman[start.php] Stopping ...
+2015-12-03 21:54:46 Workerman[start.php] has been stopped
+2015-12-03 21:57:58 Workerman[start.php] start in DEBUG mode
+2015-12-03 21:58:56 Workerman[start.php] Stopping ...
+2015-12-03 21:58:56 Workerman[start.php] has been stopped
+2015-12-03 21:59:01 Workerman[start.php] start in DEBUG mode
+2015-12-04 08:52:50 Workerman[start.php] start in DAEMON mode
+2015-12-04 09:22:12 Workerman[start.php] stop 
+2015-12-04 09:22:12 Workerman[start.php] is stoping ...
+2015-12-04 09:22:12 Workerman[start.php] Stopping ...
+2015-12-04 09:22:12 Workerman[start.php] has been stopped
+2015-12-04 09:22:12 Workerman[start.php] stop success
+2015-12-04 09:22:35 Workerman[start.php] stop 
+2015-12-04 09:22:35 Workerman[start.php] not run
+2015-12-04 09:22:35 Workerman[start.php] is stoping ...
+2015-12-04 09:22:35 Workerman[start.php] stop success
+2015-12-04 09:22:37 Workerman[start.php] start in DAEMON mode
+2015-12-04 09:23:43 Workerman[start.php] start in DAEMON mode
+2015-12-04 09:23:43 Workerman[start.php] is running
+2015-12-04 09:23:45 Workerman[start.php] start in DAEMON mode
+2015-12-04 09:23:45 Workerman[start.php] is running
+2015-12-04 09:24:27 Workerman[start.php] stop 
+2015-12-04 09:24:27 Workerman[start.php] is stoping ...
+2015-12-04 09:24:27 Workerman[start.php] Stopping ...
+2015-12-04 09:24:27 Workerman[start.php] has been stopped
+2015-12-04 09:24:27 Workerman[start.php] stop success
+2015-12-04 09:24:31 Workerman[start.php] start in DAEMON mode
+2015-12-04 09:24:52 Workerman[start.php] stop 
+2015-12-04 09:24:52 Workerman[start.php] is stoping ...
+2015-12-04 09:24:52 Workerman[start.php] Stopping ...
+2015-12-04 09:24:52 Workerman[start.php] has been stopped
+2015-12-04 09:24:52 Workerman[start.php] stop success
+2015-12-04 09:25:03 Workerman[start.php] start in DAEMON mode
+2015-12-04 20:34:38 Workerman[start.php] stop 
+2015-12-04 20:34:38 Workerman[start.php] is stoping ...
+2015-12-04 20:34:38 Workerman[start.php] Stopping ...
+2015-12-04 20:34:38 Workerman[start.php] has been stopped
+2015-12-04 20:34:38 Workerman[start.php] stop success
+2015-12-05 11:16:00 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:21:15 Workerman[start.php] reload 
+2015-12-05 11:21:15 Workerman[start.php] reload
+2015-12-05 11:21:15 Workerman[start.php] reloading
+2015-12-05 11:21:38 Workerman[start.php] stop 
+2015-12-05 11:21:38 Workerman[start.php] is stoping ...
+2015-12-05 11:21:38 Workerman[start.php] Stopping ...
+2015-12-05 11:21:38 Workerman[start.php] has been stopped
+2015-12-05 11:21:38 Workerman[start.php] stop success
+2015-12-05 11:21:41 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:23:22 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:23:22 Workerman[start.php] is running
+2015-12-05 11:23:49 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:23:49 Workerman[start.php] is running
+2015-12-05 11:24:00 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:24:00 Workerman[start.php] is running
+2015-12-05 11:24:18 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:24:18 Workerman[start.php] is running
+2015-12-05 11:24:31 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:24:31 Workerman[start.php] is running
+2015-12-05 11:24:42 Workerman[start.php] stop 
+2015-12-05 11:24:42 Workerman[start.php] is stoping ...
+2015-12-05 11:24:42 Workerman[start.php] Stopping ...
+2015-12-05 11:24:43 Workerman[start.php] has been stopped
+2015-12-05 11:24:43 Workerman[start.php] stop success
+2015-12-05 11:24:45 Workerman[start.php] start in DAEMON mode
+2015-12-05 11:25:07 Workerman[start.php] stop 
+2015-12-05 11:25:07 Workerman[start.php] is stoping ...
+2015-12-05 11:25:07 Workerman[start.php] Stopping ...
+2015-12-05 11:25:07 Workerman[start.php] has been stopped
+2015-12-05 11:25:07 Workerman[start.php] stop success
+2015-12-05 11:25:14 Workerman[start.php] start in DEBUG mode
+2015-12-05 11:25:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:21 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:21 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:31 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:31 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:35 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:35 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:38 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:38 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready
+2015-12-05 11:25:40 Workerman[start.php] Stopping ...
+2015-12-05 11:25:40 Workerman[start.php] has been stopped
+2015-12-05 11:25:42 Workerman[start.php] start in DEBUG mode
+2015-12-05 12:31:23 Workerman[start.php] Stopping ...
+2015-12-05 12:31:24 Workerman[start.php] has been stopped
+2015-12-05 12:31:26 Workerman[start.php] start in DEBUG mode
+2015-12-24 08:54:27 Workerman[start.php] start in DEBUG mode
+2015-12-24 08:56:24 Workerman[start.php] Stopping ...
+2015-12-24 08:56:25 Workerman[start.php] has been stopped
+2015-12-24 08:56:26 Workerman[start.php] start in DEBUG mode
+2015-12-24 08:56:28 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:28 worker[ChatBusinessWorker:5946] exit with status 65280
+2015-12-24 08:56:30 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:30 worker[ChatBusinessWorker:5945] exit with status 65280
+2015-12-24 08:56:34 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:34 worker[ChatBusinessWorker:5957] exit with status 65280
+2015-12-24 08:56:38 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:38 worker[ChatBusinessWorker:5947] exit with status 65280
+2015-12-24 08:56:42 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:42 worker[ChatBusinessWorker:5956] exit with status 65280
+2015-12-24 08:56:46 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:46 worker[ChatBusinessWorker:5962] exit with status 65280
+2015-12-24 08:56:50 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:50 worker[ChatBusinessWorker:5961] exit with status 65280
+2015-12-24 08:56:54 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:54 worker[ChatBusinessWorker:5944] exit with status 65280
+2015-12-24 08:56:58 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:56:58 worker[ChatBusinessWorker:5965] exit with status 65280
+2015-12-24 08:56:58 Workerman[start.php] Stopping ...
+2015-12-24 08:56:58 Workerman[start.php] has been stopped
+2015-12-24 08:58:15 Workerman[start.php] start in DEBUG mode
+2015-12-24 08:58:16 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:16 worker[ChatBusinessWorker:6005] exit with status 65280
+2015-12-24 08:58:19 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:19 worker[ChatBusinessWorker:6004] exit with status 65280
+2015-12-24 08:58:23 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:23 worker[ChatBusinessWorker:6007] exit with status 65280
+2015-12-24 08:58:27 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:27 worker[ChatBusinessWorker:6018] exit with status 65280
+2015-12-24 08:58:31 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:31 worker[ChatBusinessWorker:6017] exit with status 65280
+2015-12-24 08:58:35 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:35 worker[ChatBusinessWorker:6006] exit with status 65280
+2015-12-24 08:58:39 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:39 worker[ChatBusinessWorker:6021] exit with status 65280
+2015-12-24 08:58:43 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:43 worker[ChatBusinessWorker:6026] exit with status 65280
+2015-12-24 08:58:47 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:47 worker[ChatBusinessWorker:6022] exit with status 65280
+2015-12-24 08:58:51 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:51 worker[ChatBusinessWorker:6029] exit with status 65280
+2015-12-24 08:58:55 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:55 worker[ChatBusinessWorker:6025] exit with status 65280
+2015-12-24 08:58:59 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:58:59 worker[ChatBusinessWorker:6033] exit with status 65280
+2015-12-24 08:59:03 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:03 worker[ChatBusinessWorker:6030] exit with status 65280
+2015-12-24 08:59:07 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:07 worker[ChatBusinessWorker:6038] exit with status 65280
+2015-12-24 08:59:11 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:11 worker[ChatBusinessWorker:6037] exit with status 65280
+2015-12-24 08:59:15 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:15 worker[ChatBusinessWorker:6034] exit with status 65280
+2015-12-24 08:59:19 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:19 worker[ChatBusinessWorker:6042] exit with status 65280
+2015-12-24 08:59:23 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:23 worker[ChatBusinessWorker:6045] exit with status 65280
+2015-12-24 08:59:27 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:27 worker[ChatBusinessWorker:6049] exit with status 65280
+2015-12-24 08:59:31 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:31 worker[ChatBusinessWorker:6050] exit with status 65280
+2015-12-24 08:59:35 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:35 worker[ChatBusinessWorker:6041] exit with status 65280
+2015-12-24 08:59:39 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:39 worker[ChatBusinessWorker:6016] exit with status 65280
+2015-12-24 08:59:43 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:43 worker[ChatBusinessWorker:6053] exit with status 65280
+2015-12-24 08:59:47 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:47 worker[ChatBusinessWorker:6054] exit with status 65280
+2015-12-24 08:59:51 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:51 worker[ChatBusinessWorker:6061] exit with status 65280
+2015-12-24 08:59:55 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:55 worker[ChatBusinessWorker:6064] exit with status 65280
+2015-12-24 08:59:59 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 08:59:59 worker[ChatBusinessWorker:6057] exit with status 65280
+2015-12-24 09:00:03 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:03 worker[ChatBusinessWorker:6046] exit with status 65280
+2015-12-24 09:00:07 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:07 worker[ChatBusinessWorker:6060] exit with status 65280
+2015-12-24 09:00:11 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:11 worker[ChatBusinessWorker:6076] exit with status 65280
+2015-12-24 09:00:15 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:15 worker[ChatBusinessWorker:6080] exit with status 65280
+2015-12-24 09:00:19 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:19 worker[ChatBusinessWorker:6068] exit with status 65280
+2015-12-24 09:00:23 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:23 worker[ChatBusinessWorker:6079] exit with status 65280
+2015-12-24 09:00:27 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:27 worker[ChatBusinessWorker:6065] exit with status 65280
+2015-12-24 09:00:31 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:31 worker[ChatBusinessWorker:6087] exit with status 65280
+2015-12-24 09:00:35 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:35 worker[ChatBusinessWorker:6091] exit with status 65280
+2015-12-24 09:00:39 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:39 worker[ChatBusinessWorker:6083] exit with status 65280
+2015-12-24 09:00:43 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:43 worker[ChatBusinessWorker:6092] exit with status 65280
+2015-12-24 09:00:47 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:47 worker[ChatBusinessWorker:6095] exit with status 65280
+2015-12-24 09:00:51 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:51 worker[ChatBusinessWorker:6088] exit with status 65280
+2015-12-24 09:00:55 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:55 worker[ChatBusinessWorker:6084] exit with status 65280
+2015-12-24 09:00:59 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:00:59 worker[ChatBusinessWorker:6103] exit with status 65280
+2015-12-24 09:01:03 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:03 worker[ChatBusinessWorker:6099] exit with status 65280
+2015-12-24 09:01:07 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:07 worker[ChatBusinessWorker:6102] exit with status 65280
+2015-12-24 09:01:11 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:11 worker[ChatBusinessWorker:6106] exit with status 65280
+2015-12-24 09:01:15 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:15 worker[ChatBusinessWorker:6121] exit with status 65280
+2015-12-24 09:01:19 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:19 worker[ChatBusinessWorker:6118] exit with status 65280
+2015-12-24 09:01:23 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:23 worker[ChatBusinessWorker:6122] exit with status 65280
+2015-12-24 09:01:27 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:27 worker[ChatBusinessWorker:6129] exit with status 65280
+2015-12-24 09:01:31 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:31 worker[ChatBusinessWorker:6130] exit with status 65280
+2015-12-24 09:01:35 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:35 worker[ChatBusinessWorker:6125] exit with status 65280
+2015-12-24 09:01:39 WORKER EXIT UNEXPECTED E_ERROR Class 'Config\Db' not found in /www/html/workerman/html/chat1/GatewayWorker/Lib/Db.php on line 34
+2015-12-24 09:01:39 worker[ChatBusinessWorker:6098] exit with status 65280
+2015-12-24 09:01:41 Workerman[start.php] Stopping ...
+2015-12-24 09:01:41 Workerman[start.php] has been stopped
+2015-12-24 13:04:08 Workerman[start.php] start in DEBUG mode
+2015-12-24 13:06:36 Workerman[start.php] Stopping ...
+2015-12-24 13:06:37 Workerman[start.php] has been stopped
+2015-12-24 13:06:41 Workerman[start.php] start in DEBUG mode
+2015-12-24 13:06:49 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:06:53 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:06:58 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:02 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:06 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:10 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:14 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:18 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:22 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:26 client_id:38	client_ip:203.130.43.155
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value' in /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php:1611
+Stack trace:
+#0 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1611): PDOStatement->execute()
+#1 /www/html/workerman/html/chat1/GatewayWorker/Lib/DbConnection.php(1701): GatewayWorker\Lib\DbConnection->execute('INSERT INTO `te...', Array)
+#2 /www/html/workerman/html/chat1/Applications/Chat/Event.php(67): GatewayWorker\Lib\DbConnection->query()
+#3 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(146): Event::onMessage(38, '{"type":"pong"}')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 /www/html/workerman/html/chat1/Workerman/Connection/TcpConnection.php(464): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#7 /www/html/workerman/html/chat1/Workerman/Events/Select.php(257): call_user_func_array(Array, Array)
+#8 /www/html/workerman/html/chat1/Workerman/Worker.php(1290): Workerman\Events\Select->loop()
+#9 /www/html/workerman/html/chat1/GatewayWorker/BusinessWorker.php(86): Workerman\Worker->run()
+#10 /www/html/workerman/html/chat1/Workerman/Worker.php(779): GatewayWorker\BusinessWorker->run()
+#11 /www/html/workerman/html/chat1/Workerman/Worker.php(748): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#12 /www/html/workerman/html/chat1/Workerman/Worker.php(328): Workerman\Worker::forkWorkers()
+#13 /www/html/workerman/html/chat1/start.php(37): Workerman\Worker::runAll()
+#14 {main}
+2015-12-24 13:07:31 Workerman[start.php] Stopping ...
+2015-12-24 13:07:31 Workerman[start.php] has been stopped
+2015-12-24 13:07:35 Workerman[start.php] start in DEBUG mode
+2015-12-24 13:08:04 Workerman[start.php] Stopping ...
+2015-12-24 13:08:04 Workerman[start.php] has been stopped
+2015-12-26 17:15:34 Workerman[start.php] start in DEBUG mode
+2015-12-26 17:15:46 Workerman[start.php] Stopping ...
+2015-12-26 17:15:46 Workerman[start.php] has been stopped
+2015-12-26 17:16:31 Workerman[start.php] start in DEBUG mode
+2015-12-26 17:17:44 Workerman[start.php] Stopping ...
+2015-12-26 17:17:44 Workerman[start.php] has been stopped
+2015-12-26 17:17:48 Workerman[start.php] start in DEBUG mode
+2015-12-26 17:18:12 Workerman[start.php] Stopping ...
+2015-12-26 17:18:12 Workerman[start.php] has been stopped

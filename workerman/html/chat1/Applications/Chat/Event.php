@@ -18,6 +18,7 @@
  */
 use \GatewayWorker\Lib\Gateway;
 use \GatewayWorker\Lib\Store;
+use \GatewayWorker\Lib\Db;
 
 class Event
 {
@@ -30,7 +31,7 @@ class Event
    public static function onMessage($client_id, $message)
    {
         // debug
-        echo "client:{$_SERVER['REMOTE_ADDR']}:{$_SERVER['REMOTE_PORT']} gateway:{$_SERVER['GATEWAY_ADDR']}:{$_SERVER['GATEWAY_PORT']}  client_id:$client_id session:".json_encode($_SESSION)." onMessage:".$message."\n";
+       # echo "client:{$_SERVER['REMOTE_ADDR']}:{$_SERVER['REMOTE_PORT']} gateway:{$_SERVER['GATEWAY_ADDR']}:{$_SERVER['GATEWAY_PORT']}  client_id:$client_id session:".json_encode($_SESSION)." onMessage:".$message."\n";
         
         // 客户端传递的是json数据
         $message_data = json_decode($message, true);
@@ -39,7 +40,10 @@ class Event
             return ;
         }
         print_r($message_data);
-        
+        $db = Db::instance('test');
+
+        #var_dump($db);
+        #echo '#1#';
         // 根据类型执行不同的业务
         switch($message_data['type'])
         {
@@ -48,7 +52,7 @@ class Event
             	// 向大家说
             	$all_clients = self::getClientListFromRoom($_SESSION['room_id']);
             	$client_id_array = array_keys($all_clients);
-				$message_data['content'] = '测试中的呀。。。';
+				$message_data['content'] = '今天是周末 2015-12-05！';
 				$client_name = $_SESSION['client_name'];
 				$new_message = array(
                      'type'=>'say',
@@ -58,6 +62,9 @@ class Event
                      'content'=>"<b>对你说: </b>".nl2br(htmlspecialchars($message_data['content'])),
                      'time'=>date('Y-m-d H:i:s'),
                  );
+                // 插入
+                $insert_id = $db->insert('test')->cols(array('message'=>json_encode($new_message)))->query();
+                var_dump($insert_id);
 				return Gateway::sendToCurrentClient(json_encode($new_message));
 				break;
 				
@@ -98,7 +105,15 @@ class Event
                 }
                 $room_id = $_SESSION['room_id'];
                 $client_name = $_SESSION['client_name'];
+
+                $timeData = microtime();
+                var_dump($timeData);
+                $tmp = explode(' ',$timeData);
+                $tmpStr = $tmp[1].'#'.$tmp[0];
                 
+
+
+
                 // 私聊
                 if($message_data['to_client_id'] != 'all')
                 {

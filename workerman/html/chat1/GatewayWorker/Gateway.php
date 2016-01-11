@@ -362,7 +362,7 @@ class Gateway extends Worker
     
     /**
      * 当Gateway启动的时候触发的回调函数
-     * @return void
+     * @return void 
      */
     public function onWorkerStart()
     {
