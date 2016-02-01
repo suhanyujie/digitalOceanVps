@@ -7,7 +7,9 @@
     <!-- {!! Form::textarea('content',null,['class'=>'form-control','id'=>'container11','style'=>'height:500px;','type'=>'text/plain']) !!}
     -->
     <div style="width:100%">
-        <script type="text/plain" id="container" name="content" style="width:100%;height:260px"></script>
+        <script type="text/plain" id="container" name="content" style="width:100%;height:260px">
+            {!! $initContent !!}
+        </script>
     </div>
 
 

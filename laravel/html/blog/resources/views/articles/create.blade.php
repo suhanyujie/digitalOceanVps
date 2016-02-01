@@ -7,7 +7,7 @@
     <div class="row" style="margin-top:50px;">
         {!! Form::open(['url'=>'/articles']) !!}
 	 
-        	@include('articles.form')
+        	@include('articles.form',['initContent'=>'',])
 
 
         <!-- 实例化编辑器 -->
@@ -30,7 +30,7 @@
     </div>
 
 
-
+    @include('articles.footer')
 </div>
 
 @stop

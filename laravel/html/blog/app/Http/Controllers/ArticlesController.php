@@ -21,9 +21,12 @@ class ArticlesController extends Controller
     public function index()
     {
         $userInfo = \Auth::user();
-        $articles = Article::latest()->published()->get();
+        $data = array();
+        $data['articles'] = Article::latest()->published()->get();
+        $data['userInfo'] = $userInfo;
+        //dd($userInfo->name);
 
-        return view('articles.index2')->with('articles',$articles);
+        return view('articles.index2')->with('data',$data);
     }
 
     /**
@@ -53,19 +56,17 @@ class ArticlesController extends Controller
         $input = $request->except('_token');
         # 存入数据库
         #$input['publish_date'] = time();
-        $dataObj = Article::create($input);
+        $insertId = Article::create($input)->id;
         $contentInsert = array();
         # 新创建的文章id
-        $contentInsert['article_id'] = $mainId = $dataObj->id;
+        $contentInsert['article_id'] = $insertId;
         $contentInsert['content'] = $input['content'];
         $res1 = Content::create($contentInsert);
         #dd($res1);
-        Article::create($contentInsert);
-
-
+        #Article::create($contentInsert);
 
         #重定向
-        #return redirect('/articles');
+        return redirect('/articles');
     }
 
     /**
@@ -89,8 +90,12 @@ class ArticlesController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
-    {	
+    {
+        if(\Auth::check() == false){
+            return redirect('/auth/login');
+        }
     	$articles = Article::findOrFail($id);
+        $articles->content = Article::find($id)->hasOneContent->content;
     	#dd($articles);
         return view('articles.edit',compact('articles'));
     }
@@ -104,8 +109,18 @@ class ArticlesController extends Controller
      */
     public function update(Requests\CreateArticleRequest $request, $id)
     {
-        $articles = Article::findOrFail($id);
-        $articles->update($request->all());
+        if(\Auth::check() == false){
+            return redirect('/auth/login');
+        }
+        $articles = Article::findOrFail($id)->update(['publish_date'=>time(),]);
+        #$articles->update($request->all());
+        // 更新到content表中
+        $contentArr = ['article_id'=>$id,'content'=>$request->content,];
+        //dd($contentArr);
+        $content = Content::where('article_id',$id)->update($contentArr);
+        //dd($content);
+        #$content->update($contentArr);
+
         return redirect('/articles/');
     }
 

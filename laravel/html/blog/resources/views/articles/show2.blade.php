@@ -1,4 +1,12 @@
 @extends('app')
+
+@section('title')
+<title>
+    {{$data->title}}
+</title>
+
+@stop
+
 @section('content')
 <div class="container-fluid">
     <div class="row">
@@ -17,5 +25,6 @@
             </article>
         </div>
     </div>
+    @include('articles.footer')
 </div>
 @stop

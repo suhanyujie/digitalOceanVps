@@ -1,4 +1,9 @@
 @extends('app')
+@section('title')
+    <title>
+        文章列表-爱生活，锲而不舍
+    </title>
+@stop
 @section('content')
     <div class="container">
         <div class="row">

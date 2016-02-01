@@ -64,6 +64,10 @@
 
                 </ul>
             </li>
+            @elseif(\Auth::user())
+                <li style="display:none;">
+                    <span>您好,{{\Auth::user()->name}}</span>
+                </li>
             @endif
         </ul>
     </div>
