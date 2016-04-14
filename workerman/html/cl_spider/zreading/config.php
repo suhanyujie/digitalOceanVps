@@ -22,7 +22,7 @@ include ROOT_PATH . '/library/runtime.class.php';
 include ROOT_PATH . '/library/pscws4/pscws4.class.php';
 # 载入phpQuery类库
 #include LIB_PATH.'/phpquery/phpQuery/phpQuery.php';
-include LIB_PATH.'/phpquery/QueryList.class.php';
+//include LIB_PATH.'/phpquery/QueryList.class.php';
 
 // mysql 初始化
 try{

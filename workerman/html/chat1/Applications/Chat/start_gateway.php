@@ -52,6 +52,7 @@ $gateway->onConnect = function($connection)
         // onWebSocketConnect 里面$_GET $_SERVER是可用的
          #var_dump($_GET, $_SERVER);
         var_dump($_SERVER['HTTP_ORIGIN']);
+        
     };
 };
 

@@ -64,7 +64,7 @@ class WebServer extends Worker
     /**
      * 构造函数
      * @param string $socket_name
-     * @param array $context_option
+     * @param array $context_option 
      */
     public function __construct($socket_name, $context_option = array())
     {

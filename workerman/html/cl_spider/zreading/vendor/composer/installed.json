@@ -1,0 +1,476 @@
+[
+    {
+        "name": "jaeger/curlmulti",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/CurlMulti.git",
+            "reference": "059f13241e15ddfe6155c032ef765e58233a5aab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/CurlMulti/059f13241e15ddfe6155c032ef765e58233a5aab.zip",
+            "reference": "059f13241e15ddfe6155c032ef765e58233a5aab",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.1.0"
+        },
+        "time": "2015-12-23 16:28:22",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "QL\\Ext\\Lib\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Ares",
+                "email": "admin@phpdr.net"
+            }
+        ],
+        "description": "CurlMulti是PHP多线程类库,修改用于QueryList(http://querylist.cc ),CurlMulti项目地址:https://github.com/ares333/php-curlmulti"
+    },
+    {
+        "name": "jaeger/querylist-ext-aquery",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/QueryList-Ext-AQuery.git",
+            "reference": "bfbf417363bb8f0caec2573f02d24ba2e921aeef"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/QueryList-Ext-AQuery/bfbf417363bb8f0caec2573f02d24ba2e921aeef.zip",
+            "reference": "bfbf417363bb8f0caec2573f02d24ba2e921aeef",
+            "shasum": ""
+        },
+        "time": "2016-01-06 07:51:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "QL\\Ext\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jaeger",
+                "email": "hj.q@qq.com"
+            }
+        ],
+        "description": "QueryList扩展，AQuery扩展基类"
+    },
+    {
+        "name": "jaeger/querylist-ext-multi",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/QueryList-Ext-Multi.git",
+            "reference": "2c633480411b1cea31d93b2c1b754eb0bc79fea8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/QueryList-Ext-Multi/2c633480411b1cea31d93b2c1b754eb0bc79fea8.zip",
+            "reference": "2c633480411b1cea31d93b2c1b754eb0bc79fea8",
+            "shasum": ""
+        },
+        "require": {
+            "jaeger/curlmulti": "^1.0",
+            "jaeger/querylist-ext-aquery": "^1.0"
+        },
+        "time": "2015-12-28 06:09:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "QL\\Ext\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jaeger",
+                "email": "hj.q@qq.com"
+            }
+        ],
+        "description": "QueryList扩展，Multi多线程扩展"
+    },
+    {
+        "name": "jaeger/http",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/Http.git",
+            "reference": "5f697c64875a6cf404d841c5e8afb624d67ffa88"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/Http/5f697c64875a6cf404d841c5e8afb624d67ffa88.zip",
+            "reference": "5f697c64875a6cf404d841c5e8afb624d67ffa88",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.1.0"
+        },
+        "time": "2015-12-23 16:18:24",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "QL\\Ext\\Lib\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "HTTP 请求类,修改用于QueryList(http://querylist.cc )"
+    },
+    {
+        "name": "jaeger/querylist-ext-request",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/QueryList-Ext-Request.git",
+            "reference": "27d06b35fb810b919d242a3dbbdac0e1cb838bc4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/QueryList-Ext-Request/27d06b35fb810b919d242a3dbbdac0e1cb838bc4.zip",
+            "reference": "27d06b35fb810b919d242a3dbbdac0e1cb838bc4",
+            "shasum": ""
+        },
+        "require": {
+            "jaeger/http": "^1.0",
+            "jaeger/querylist-ext-aquery": "^1.0"
+        },
+        "time": "2015-12-28 06:24:02",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "QL\\Ext\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jaeger",
+                "email": "hj.q@qq.com"
+            }
+        ],
+        "description": "QueryList扩展，Request网络操作扩展"
+    },
+    {
+        "name": "jaeger/querylist-ext-login",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/QueryList-Ext-Login.git",
+            "reference": "4e1279ead32eea96b45f5cec64a9646573f646ce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/QueryList-Ext-Login/4e1279ead32eea96b45f5cec64a9646573f646ce.zip",
+            "reference": "4e1279ead32eea96b45f5cec64a9646573f646ce",
+            "shasum": ""
+        },
+        "require": {
+            "jaeger/querylist-ext-request": "^1.0"
+        },
+        "time": "2015-12-28 06:42:48",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "QL\\Ext\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jaeger",
+                "email": "hj.q@qq.com"
+            }
+        ],
+        "description": "QueryList扩展，Login模拟登陆扩展"
+    },
+    {
+        "name": "jaeger/phpquery-single",
+        "version": "0.9.7",
+        "version_normalized": "0.9.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/phpQuery-single.git",
+            "reference": "4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/phpQuery-single/4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4.zip",
+            "reference": "4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-01-02 17:34:12",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "phpQuery.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tobiasz Cudnik",
+                "email": "tobiasz.cudnik@gmail.com",
+                "homepage": "https://github.com/TobiaszCudnik",
+                "role": "Developer"
+            },
+            {
+                "name": "Jaeger",
+                "role": "Packager"
+            }
+        ],
+        "description": "phpQuery单文件版本，是Querylist的依赖(http://querylist.cc/)，phpQuery项目主页:http://code.google.com/p/phpquery/",
+        "homepage": "http://code.google.com/p/phpquery/"
+    },
+    {
+        "name": "jaeger/querylist",
+        "version": "V3.1.2",
+        "version_normalized": "3.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jae-jae/QueryList.git",
+            "reference": "fbea1aaa9479624de92a1ebf143350d7165d819d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/jae-jae/QueryList/fbea1aaa9479624de92a1ebf143350d7165d819d.zip",
+            "reference": "fbea1aaa9479624de92a1ebf143350d7165d819d",
+            "shasum": ""
+        },
+        "require": {
+            "jaeger/phpquery-single": "^0.9.5",
+            "php": ">=5.3.0"
+        },
+        "time": "2016-01-06 07:56:03",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "QL\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jaeger",
+                "email": "hj.q@qq.com"
+            }
+        ],
+        "description": "QueryList是基于phpQuery的无比强大的PHP采集工具",
+        "homepage": "http://querylist.cc",
+        "keywords": [
+            "QueryList",
+            "phpQuery",
+            "spider"
+        ]
+    },
+    {
+        "name": "indieteq/indieteq-php-my-sql-pdo-database-class",
+        "version": "v1",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/indieteq/indieteq-php-my-sql-pdo-database-class.git",
+            "reference": "eeef1ae69098a728f5cf37033a0c2ee833cb6a3f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/indieteq/indieteq-php-my-sql-pdo-database-class/eeef1ae69098a728f5cf37033a0c2ee833cb6a3f.zip",
+            "reference": "eeef1ae69098a728f5cf37033a0c2ee833cb6a3f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-12-15 14:53:56",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "slim/pdo",
+        "version": "1.9.8",
+        "version_normalized": "1.9.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FaaPz/Slim-PDO.git",
+            "reference": "5f766ca63b8a8e45e7a27acaa3edadb1cf5e55a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/FaaPz/Slim-PDO/5f766ca63b8a8e45e7a27acaa3edadb1cf5e55a8.zip",
+            "reference": "5f766ca63b8a8e45e7a27acaa3edadb1cf5e55a8",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2016-02-27 16:38:28",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Slim\\PDO\\": "src/PDO/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabian de Laender",
+                "email": "fabian@faapz.nl",
+                "homepage": "http://faapz.nl",
+                "role": "Developer"
+            }
+        ],
+        "description": "PDO database library for Slim Framework",
+        "homepage": "https://github.com/FaaPz/Slim-PDO",
+        "keywords": [
+            "database",
+            "framework",
+            "pdo",
+            "slim"
+        ]
+    },
+    {
+        "name": "phpdr.net/php-curlmulti",
+        "version": "v2.3.1",
+        "version_normalized": "2.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ares333/php-curlmulti.git",
+            "reference": "306cf07a4608220249a859e73326eb9f703687c7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/ares333/php-curlmulti/306cf07a4608220249a859e73326eb9f703687c7.zip",
+            "reference": "306cf07a4608220249a859e73326eb9f703687c7",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.1.0"
+        },
+        "time": "2016-01-11 11:04:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ares333\\CurlMulti\\": [
+                    "src"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Ares",
+                "email": "admin@phpdr.net"
+            }
+        ],
+        "description": "Beyond all doubts,It is the best php curl library.",
+        "keywords": [
+            "Phpcurl",
+            "curl",
+            "curlmulti",
+            "php-curlmulti"
+        ]
+    },
+    {
+        "name": "jenner/timer",
+        "version": "v0.2",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/huyanping/php-timer.git",
+            "reference": "e3f3d9a139964ea97ff67cbd3a1deb8c4030447f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/huyanping/php-timer/e3f3d9a139964ea97ff67cbd3a1deb8c4030447f.zip",
+            "reference": "e3f3d9a139964ea97ff67cbd3a1deb8c4030447f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-11-10 04:22:17",
+        "type": "package",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Jenner\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jenner",
+                "email": "hypxm@qq.com"
+            }
+        ],
+        "description": "php timer",
+        "keywords": [
+            "memory",
+            "memory used",
+            "php timer"
+        ]
+    }
+]

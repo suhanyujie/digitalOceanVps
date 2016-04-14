@@ -32,6 +32,9 @@ Route::get('/articles/create','ArticlesController@create');
 Route::get('/articles/{id}','ArticlesController@show');
 Route::post('/articles','ArticlesController@store');
 Route::get('/articles/{id}/edit','ArticlesController@edit');*/
+
+# 搜索路由
+Route::get('/articles/search/{keyword}','ArticlesController@search');
 Route::resource('articles','ArticlesController');
 
 Route::get('auth/login','Auth\AuthController@getLogin');
@@ -48,7 +51,6 @@ Route::get('auth/logout','Auth\AuthController@getLogout');
 /*
 Route::get('/', function () {
     return view('sites.index');
-});
-Route::get('/about', function () {
-    return 'I am Samuel Su';
 });*/
+Route::get('/test1', 'ArticlesController@test1');
+Route::get('/admin', '\App\Http\Controllers\Article\AdminController@index');

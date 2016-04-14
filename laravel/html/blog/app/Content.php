@@ -18,4 +18,13 @@ class Content extends Model
     {
         return $this->belongsTo('App\Article');
     }
-}
+    /**
+     *  获取多个文章对应的content
+     */
+    public static function scopeContents($query,$idArr) {
+        $idStr = '('.implode(',',$idArr).')';
+    
+        return $query->where('article_id','>','60');
+    }
+    
+}# 类-结束

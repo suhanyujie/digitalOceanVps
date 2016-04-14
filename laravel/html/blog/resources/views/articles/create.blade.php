@@ -25,12 +25,9 @@
             @endforeach
             </ul>
         @endif
-
-
     </div>
 
-
-    @include('articles.footer')
 </div>
 
 @stop
+

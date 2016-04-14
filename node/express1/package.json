@@ -1,0 +1,19 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "express-test"
+  },
+  "author": "suhanyu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "mongoose": "^4.4.12"
+  }
+}

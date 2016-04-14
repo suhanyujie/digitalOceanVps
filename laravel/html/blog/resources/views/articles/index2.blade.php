@@ -27,7 +27,8 @@
 
         </div>
     </div>
-    @include('articles.footer')
 </div>
-
+@stop
+@section('footer')
+    @include('articles.footer')
 @stop

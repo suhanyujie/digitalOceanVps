@@ -1,0 +1,63 @@
+Time : 10:10:36
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'content' at row 1
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 10:06:40
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5196' for key 'list_id_index'
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 10:06:34
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5196' for key 'list_id_index'
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 10:06:29
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5196' for key 'list_id_index'
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:41:41
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:40:47
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:38:09
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:38:02
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:37:59
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5196' for key 'list_id_index'
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:36:23
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:36:23
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:20:10
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:20:10
+SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 09:15:49
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5196' for key 'list_id_index'
+Raw SQL : INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)
+
+Time : 08:30:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '') VALUES(?,?,?,?)' at line 1
+Raw SQL : INSERT INTO content(author,content,list_id,add_time') VALUES(:p1,:p2,:p3,:p4)
+
+Time : 08:30:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '') VALUES(?,?,p3,p4)' at line 1
+Raw SQL : INSERT INTO content(author,content,list_id,add_time') VALUES(:p1,:p2,p3,p4)

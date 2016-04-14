@@ -24,10 +24,17 @@ require __DIR__.'/../vendor/autoload.php';
 | To dramatically increase your application's performance, you may use a
 | compiled class file which contains all of the classes commonly used
 | by a request. The Artisan "optimize" is used to create this file.
-|
+| 
 */
 
 $compiledPath = __DIR__.'/cache/compiled.php';
+
+/**
+ * 自己引入文件 suhy
+ */
+require __DIR__.'/../app/libraries/sphinxapi.php';
+
+
 
 if (file_exists($compiledPath)) {
     require $compiledPath;

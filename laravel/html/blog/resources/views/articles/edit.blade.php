@@ -2,7 +2,7 @@
 @extends('app')
 @section('title')
     <title>
-       编辑文章： {{$articles->title}}
+       1编辑文章： {{$articles->title}}
     </title>
 @stop
 
@@ -30,8 +30,9 @@
 
         </div>
 
-
-        @include('articles.footer')
     </div>
+@stop
 
+@section('footer')
+    @include('articles.footer')
 @stop

@@ -1,0 +1,19 @@
+{
+    "require": {
+        "jaeger/querylist": "^3.1",
+        "jaeger/querylist-ext-request":"^1.0",
+        "jaeger/querylist-ext-multi":"^1.0",
+        "jaeger/querylist-ext-login":"^1.0",
+        "indieteq/indieteq-php-my-sql-pdo-database-class":"^1.0",
+        "slim/pdo": "~1.9",
+        "phpdr.net/php-curlmulti" : "2.*", 
+	"jenner/timer":"0.*"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "http://packagist.phpcomposer.com"
+        }
+    }
+    
+}

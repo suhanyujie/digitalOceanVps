@@ -133,8 +133,9 @@ function get_article_id($url){
     if(!$url) return false;
     $pattern = '@(\d+).html@';
     preg_match_all($pattern,$url,$res1);
+    $res1[1][0] = (int)$res1[1][0];
 
-    return (int)$res1[1][0];
+    return $res1[1][0];
 }
 /**
  * 检查数据是否存在过

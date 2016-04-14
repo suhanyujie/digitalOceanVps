@@ -9,6 +9,7 @@ include '/www/html/workerman/html/cl_spider/zreading/config.php';
 require '/www/html/workerman/html/cl_spider/zreading/vendor/autoload.php';
 
 use Slim\PDO\Database;
+use QL\QueryList;
 
 if(1){
 	ini_set("display_errors", "On");
@@ -17,24 +18,27 @@ if(1){
 
 #var_dump($pdo);exit();
 // 查询出已经采集到的所有主题链接
-$threads = $pdo->query("SELECT id, detail_url,source_id from list limit 100");
+$threads = $pdo->query("SELECT id, detail_url,source_id from list limit 60");
 $threads = $threads->fetchAll();
 $thread_quantity = count($threads);
+// 数据库连接
+require '/www/html/workerman/html/cl_spider/zreading/vendor/indieteq/indieteq-php-my-sql-pdo-database-class/Db.class.php';
+$db = new Db();
 // 多进程遍历,进行抓取
-$workers = 4;
+$workers = 1;
+$timer = new \Jenner\Timer(\Jenner\Timer::UNIT_KB);
+$timer->mark('a');
+
 $pids = array();
 for ($i = 0; $i < $workers; $i++) {
     $pids[$i] = pcntl_fork(); // 创建子进程
-
     switch ($pids[$i]) {
         case -1:
             alert('创建子进程失败：' . $i);
             exit;
-        case 0;
-			var_dump(getmypid());
+        case 0:
             $key_start = $thread_quantity / $workers * $i;
             $key_end   = $thread_quantity / $workers * ($i + 1);
-
             for ($j = $key_start; $j < $key_end; $j++){
                 $url = $threads[$j]['detail_url'];
                 $sourceId = $threads[$j]['source_id'];
@@ -46,84 +50,46 @@ for ($i = 0; $i < $workers; $i++) {
                    # 'callback'=>array('HJ','callfun2')      //调用回调函数2作为全局回调函数
                 );
                 $rang = '#content';
-                sleep(2);
+                // sleep(1);
                 $hj = QueryList::Query($url,$reg,$rang);
                 $res = $hj->data;
                 //var_dump($res[0]['title']);
                 //exit('#50-1#');
                 // 链接数据库
-                $dsn = 'localhost';
-				$usr = 'root';
-				$pwd = '685';
-				$pdo = \Slim\PDO\MyPDO::getInstance($dsn,$usr,$pwd.'2432','spider','utf-8');
+               
                 $insertData = array(
                 	'author'=>'左岸读书',
-                	'content'=>isset($res[0]['content']) ? addslashes($res[0]['content']) : '',
+                	'content'=>isset($res[0]['content']) ? addslashes($res[0]['content']) : '', 
                 	'list_id'=>$sourceId,
-                	'add_time'=>date('Y-m-d H:i:s'),	
+                	'add_time'=>date('Y-m-d H:i:s'),	 
                 );
                 // 插入数据到数据库
-                try {
-                	$insertStatement = $pdo->insert('content',$insertData,false);
-                } catch (Exception $e) {
-                	continue;
-                }
-                var_dump($insertStatement);
-                // 查询数据库
-//                 $selectStatement = $pdo->select()->from('users')->limit(1);
-//                 $stmt = $selectStatement->execute();
-//                 $data = $stmt->fetch();
+                $insert = $db->query("INSERT INTO content(author,content,list_id,add_time) VALUES (:p1,:p2,:p3,:p4)", 
+                                array("p1"=>"左岸读书","p2"=>$insertData['content'],'p3'=>$insertData['list_id'],'p4'=>date('Y-m-d H:i:s')));
                 
-                
-
-//                 if (curl_errno($thread_handle)) {
-//                     beep();
-//                     alert('curl出错:' . curl_error($thread_handle));
-//                     alert('出错的URL是：' . $threads[$j]['detail_url']);
-//                 } else {
-//                     curl_close($thread_handle);
-//                 }
-
-                //$html = str_get_html($thread_content);
-                //print_r($html);exit();
-                // 匹配出详情页内容  并进行入库
-//                 if (is_object($html)) {
-//                     $e = $html->find('#content .entry-content');
-//                     foreach($e as $k=>$v){
-//                         $str = trim($v->innertext);
-//                     }
-//                     #$str = $e->innertext;
-//                     $sourceId = $threads[$j]['source_id'];
-//                     $addTime = date('Y-m-d H:i:s');
-
-//                     try {
-//                         $pdo = new PDO('mysql:host=127.0.0.1;dbname=spider;charset=utf8', 'root', '6852432');
-//                         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//                         $sql = 'INSERT INTO content(content,list_id,add_time)
-//    				VALUES ';
-//                         $partSql = "('$str',$sourceId,'$addTime')";
-//                         $sql .= $partSql;
-//                         $pdo->exec($sql);
-//                         exit();
-//                     } catch (PDOException $error) {
-//                         alert($error->getMessage());
-//                     }
-//                 }
-
-                // 释放系统资源
-                //$html->clear();
-                //unset($html);
+                var_dump($insert);
             }
+            // 子进程退出
+            $curPid = getmypid();
+            exit('#子进程退出：'.$curPid."#\n");
             break;
-
         default;
-        	echo 'This is parent Process!['.getmypid().']';
+        	echo 'This is parent Process!['.getmypid()."]\n";
+        	pcntl_waitpid($pids[$i], $status);
             break;
     }
-    $exitPid = getmypid();
-    exit($exitPid);#子进程退出
-
 }
+
+// 当pcntl_fork出来以后，会返回一个pid值，这个pid在子进程中看是0，在父进程中看是子进程的pid（>0），如果pid为-1说明fork出错了。
+// 使用一个$pids数组就可以让主进程等候所有进程完结之后再结束了
+// foreach ($pids as $k => $pid) {
+//     if($pid) {
+//         pcntl_waitpid($pid, $status);
+//     }
+// }
+$timer->mark('b');
+$timer->printDiffReportByStartAndEnd('a', 'b');
+exit('#主进程退出~#');
 /*********************************************************************/
 /**
  * 去重 根据原始文章id
