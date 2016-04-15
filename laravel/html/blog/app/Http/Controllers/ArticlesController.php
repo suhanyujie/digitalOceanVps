@@ -46,6 +46,7 @@ class ArticlesController extends Controller
         }else{
             $dataArticles = unserialize($dataArticles);
         }
+
         
         $data['articles'] = $dataArticles;
 

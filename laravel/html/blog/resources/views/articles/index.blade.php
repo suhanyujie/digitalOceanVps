@@ -97,6 +97,9 @@
 					
 					
 					<nav class="pagination" role="navigation">
+						@if(isset($data['articles']['prev_page_url']))
+							<a class="older-posts" href="{{$data['articles']['prev_page_url']}}"><i class="fa">上一页</i></a>
+						@endif
     					@if(isset($data['articles']['next_page_url']))
 							<a class="older-posts" href="{{$data['articles']['next_page_url']}}"><i class="fa">下一页</i></a>
 						@endif

@@ -1,5 +1,5 @@
 <?php
-
+// 自动保存成功~  12222
 use \Workerman\Worker;
 use \Workerman\WebServer;
 use \GatewayWorker\Gateway;
@@ -16,6 +16,7 @@ $worker = new MyWorker();
 // worker名称
 $worker->name = 'MyTestWorker';
 // bussinessWorker进程数量
+new addreviation
 $worker->count = 1;
 
 
