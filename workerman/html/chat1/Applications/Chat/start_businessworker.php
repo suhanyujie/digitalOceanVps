@@ -28,6 +28,8 @@ $worker->name = 'ChatBusinessWorker';
 // bussinessWorker进程数量
 $worker->count = 4;
 
+mail('suhanyujie@qq.com', 'mail-title-for test', '只是为了测试    ', 'From: 苏汉宇<61vps@laravel.com>');
+
 // 如果不是在根目录启动，则运行runAll方法
 if(!defined('GLOBAL_START'))
 {

@@ -16,7 +16,6 @@ $worker = new MyWorker();
 // worker名称
 $worker->name = 'MyTestWorker';
 // bussinessWorker进程数量
-new addreviation
 $worker->count = 1;
 
 

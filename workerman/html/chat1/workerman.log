@@ -1114,3 +1114,7 @@ Stack trace:
 2016-04-11 08:16:37 Workerman[start.php] Stopping ...
 2016-04-11 08:16:38 worker[MyTestWorker:22545] exit with status 9
 2016-04-11 08:16:38 Workerman[start.php] has been stopped
+2016-04-16 10:01:00 Workerman[start.php] start in DEBUG mode
+2016-04-18 08:24:53 Workerman[start.php] status 
+2016-04-18 08:24:53 Workerman[start.php] not run
+2016-04-18 08:25:04 Workerman[start.php] start in DEBUG mode
