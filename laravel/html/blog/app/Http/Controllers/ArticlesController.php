@@ -46,12 +46,9 @@ class ArticlesController extends Controller
         }else{
             $dataArticles = unserialize($dataArticles);
         }
-
         
         $data['articles'] = $dataArticles;
-
         //var_dump($data);exit();
-        //dd($data['articles']);
         // $articleArr[0]['relations']['content']['content']
 
         return view('articles.index')->with('data',$data);
