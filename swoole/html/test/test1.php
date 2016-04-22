@@ -1,36 +1,12 @@
 <?php
-$funcMap=array('methodOne' , 'methodTwo' ,'methodThree' );
-$worker_num =3;//创建的进程数
-
+$worker_num =2;//鍒涘缓鐨勮繘绋嬫暟
 for($i=0;$i<$worker_num ; $i++){
-    $process = new swoole_process($funcMap[$i]);
+    $process = new swoole_process('callback_function_we_write');
     $pid = $process->start();
-    sleep(2);
+    echo PHP_EOL . $pid;//
 }
-
- while(1){
-            $ret = swoole_process::wait();
-            if ($ret){// $ret 是个数组 code是进程退出状态码，
-                $pid = $ret['pid'];
-                var_dump($ret);
-                echo PHP_EOL."Worker Exit, PID=" . $pid . PHP_EOL;
-            }else{
-                break;
-            }
+function callback_function_we_write(swoole_process $worker){
+    echo  PHP_EOL;
+    var_dump($worker);
+    echo  PHP_EOL;
 }
-
-function methodOne(swoole_process $worker){// 第一个处理
-    echo $worker->callback .PHP_EOL;
-    echo 'methodOne';
-}
-
-function methodTwo(swoole_process $worker){// 第二个处理
-    echo $worker->callback .PHP_EOL;
-    echo 'methodTwo';
-}
-
-function methodThree(swoole_process $worker){// 第三个处理
-    echo $worker->callback .PHP_EOL;
-    echo 'methodThree';
-}
-
