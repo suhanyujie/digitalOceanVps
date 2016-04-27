@@ -26,7 +26,6 @@ class CreateArticleRequest extends Request
         return [
             'title'=>'required|min:3',// email
             'content'=>'required',
-            'publish_date'=>'required'
         ];
     }
 }

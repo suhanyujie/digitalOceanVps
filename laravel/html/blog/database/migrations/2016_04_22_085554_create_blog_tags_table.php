@@ -12,7 +12,13 @@ class CreateBlogTagsTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('blog_tags', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('tag_name');
+            $table->string('desc');
+            $table->tinyInteger('is_del');
+            $table->timestamps();
+        });
     }
 
     /**

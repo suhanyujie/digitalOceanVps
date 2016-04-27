@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Content extends Model
 {
     protected $table = 'blog_content';
-    protected $fillable =array('id','article_id','content','created_at','updated_at');
+    protected $fillable = array('id','article_id','content','created_at','updated_at');
     protected $dates = ['publish_date'];
 
 

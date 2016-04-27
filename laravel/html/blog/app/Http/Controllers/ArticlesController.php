@@ -40,9 +40,9 @@ class ArticlesController extends Controller
         $dataArticles = $redis->get($cacheKey);
         if(!$dataArticles || true){
             //$dataArticles = \App\Article::latest()->take($pageNum)->with('content')->get()->toArray();
-            $dataArticles = \App\Article::latest()->with('content')->paginate($pageNum)->toArray();
+            $dataArticles = App\Article::latest()->with('content')->paginate($pageNum)->toArray();
             //var_dump($dataArticles);exit();
-            //$redis->set($cacheKey,serialize($dataArticles));
+            $redis->setex($cacheKey,3600*12,serialize($dataArticles));
         }else{
             $dataArticles = unserialize($dataArticles);
         }
