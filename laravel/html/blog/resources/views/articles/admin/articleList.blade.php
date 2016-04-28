@@ -56,9 +56,9 @@
                                     <i class="icon-ok bigger-120"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-info">
+                                <a class="btn btn-xs btn-info" href="/articles/{{$row['id']}}/edit">
                                     <i class="icon-edit bigger-120"></i>
-                                </button>
+                                </a>
 
                                 <button class="btn btn-xs btn-danger">
                                     <i class="icon-trash bigger-120"></i>
@@ -85,7 +85,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="#" class="tooltip-success" data-rel="tooltip" title="" data-original-title="Edit">
+                                            <a href="/article/{{$row['id']}}/edit" class="tooltip-success" data-rel="tooltip" title="" data-original-title="Edit">
 																				<span class="green">
 																					<i class="icon-edit bigger-120"></i>
 																				</span>

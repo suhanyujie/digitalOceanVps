@@ -195,6 +195,18 @@ class ArticlesController extends Controller
         var_dump(rand(1000,9999));
         return '';
     }
+    /**
+     * 博客数据库备份
+     */
+    public function backup(){
+        $command = 'cd /data/backup/;ls;/usr/local/mysql/bin/mysqldump -uroot -p6852432 --opt --databases laravel > /data/backup/laravel_'.date('Y-m-d H:').'.bk';
+        system($command,$return);
+        echo '<pre>';
+        var_dump($return);
+        echo '</pre>';
+        echo '备份成功! <a href="/"> 回到首页 </a>';
+        exit();
+    }
 
     /**
      * Remove the specified resource from storage.

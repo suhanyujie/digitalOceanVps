@@ -384,16 +384,16 @@
                         </li>
 
                         <li>
-                            <a href="buttons.html">
+                            <a href="http://laravel.suhanyu.top/articles/create/">
                                 <i class="icon-double-angle-right"></i>
-                                按钮 &amp; 图表
+                                文章添加
                             </a>
                         </li>
 
                         <li>
-                            <a href="treeview.html">
+                            <a href="/articles/backup">
                                 <i class="icon-double-angle-right"></i>
-                                树菜单
+                                博客数据备份
                             </a>
                         </li>
 
