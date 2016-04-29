@@ -32,8 +32,9 @@ class ArticlesController extends Controller
         $data['articles'] = Article::latest()->published()->get();
         $data['userInfo'] = $userInfo;
         $dataArticles = array();
+        $curPage = isset($_REQUEST['page']) ? $_REQUEST['page'] : 1;
 
-        $cacheKey = 'laravel:articles:index';
+        $cacheKey = 'laravel:articles:index:page:'.$curPage;
         $redis = new \Predis\Client(array(
                 'host' => '127.0.0.1',
                 'port' => 6379,
