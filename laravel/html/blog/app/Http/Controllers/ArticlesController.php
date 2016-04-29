@@ -14,6 +14,7 @@ use App\Model;
 use App;
 
 use Predis\Client;
+use Illuminate\Support\Facades\DB;
 
 class ArticlesController extends Controller
 {
@@ -38,7 +39,7 @@ class ArticlesController extends Controller
                 'port' => 6379,
         ));
         $dataArticles = $redis->get($cacheKey);
-        if(!$dataArticles || true){
+        if(!$dataArticles  ){
             //$dataArticles = \App\Article::latest()->take($pageNum)->with('content')->get()->toArray();
             $dataArticles = App\Article::latest()->with('content')->paginate($pageNum)->toArray();
             //var_dump($dataArticles);exit();
@@ -75,7 +76,7 @@ class ArticlesController extends Controller
      */
     public function store(Requests\CreateArticleRequest $request)
     {
-        #dd($request->all());
+        # var_dump($request->all()); exit();
         # 接受post过来的数据
         $this->validate($request,['title'=>'required','content'=>'required']);
         $input = $request->except('_token');
@@ -87,6 +88,18 @@ class ArticlesController extends Controller
         $contentInsert['article_id'] = $insertId;
         $contentInsert['content'] = $input['content'];
         $res1 = Content::create($contentInsert);
+        # tags的存储
+        if(isset($input['article_tags'])){
+            $addTagsArr = explode(',',$input['article_tags']);
+            $tags = $relateTags = [];
+            foreach($addTagsArr as $k=>$v){
+                $tags = ['tags_name'=>$v];
+                $tagInsertId = DB::table('blog_tags')->insert(array($tags));
+
+                $relateTags = ['article_id'=>$insertId,'tag_id'=>$tagInsertId,];
+                DB::table('blog_relate_tags')->insert(array($relateTags));
+            }
+        }
         #dd($res1);
         #Article::create($contentInsert);
 

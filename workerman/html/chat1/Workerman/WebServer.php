@@ -96,7 +96,7 @@ class WebServer extends Worker
             throw new \Exception('server root not set, please use WebServer::addRoot($domain, $root_path) to set server root path');
         }
         // 初始化HttpCache
-        HttpCache::init();
+        HttpCache::init();  // session start 在此处打开
         // 初始化mimeMap
         $this->initMimeTypeMap();
         

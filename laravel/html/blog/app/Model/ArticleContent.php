@@ -5,7 +5,7 @@ use Illuminate\Database;
 use Eloquent; 
 
 class ArticleContent extends Eloquent {
-    protected $table = 'articles';
+    protected $table = 'blog_articles';
     
     public function belongsToManyContent(){
         

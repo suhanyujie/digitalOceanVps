@@ -2,6 +2,7 @@
 @extends('app')
 @section('content')
 
+
 <div class="container">
     <h1> 撰写新文章 </h1>
     <div class="row" style="margin-top:50px;">

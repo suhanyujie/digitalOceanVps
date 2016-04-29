@@ -111,9 +111,6 @@ class Event
                 $tmp = explode(' ',$timeData);
                 $tmpStr = $tmp[1].'#'.$tmp[0];
                 
-
-
-
                 // 私聊
                 if($message_data['to_client_id'] != 'all')
                 {
