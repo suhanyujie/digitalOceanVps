@@ -89,21 +89,26 @@ class ArticlesController extends Controller
         $contentInsert['article_id'] = $insertId;
         $contentInsert['content'] = $input['content'];
         $res1 = Content::create($contentInsert);
-        # tags的存储
-        if(isset($input['article_tags'])){
+        # tags的存储  // 功能正在开发中..
+        if(isset($input['article_tags']) && false){
             $addTagsArr = explode(',',$input['article_tags']);
             $tags = $relateTags = [];
-            foreach($addTagsArr as $k=>$v){
-                $tags = ['tags_name'=>$v];
-                $tagInsertId = DB::table('blog_tags')->insert(array($tags));
+            if($addTagsArr){
+                foreach($addTagsArr as $k=>$v){
+                    $tags = ['tags_name'=>$v];
+                    $tagInsertId = DB::table('blog_tags')->insert(array($tags));
 
-                $relateTags = ['article_id'=>$insertId,'tag_id'=>$tagInsertId,];
-                DB::table('blog_relate_tags')->insert(array($relateTags));
+                    $relateTags = ['article_id'=>$insertId,'tag_id'=>$tagInsertId,];
+                    DB::table('blog_relate_tags')->insert(array($relateTags));
+                }
             }
         }
         #dd($res1);
         #Article::create($contentInsert);
-
+        $redis = new \Predis\Client();
+        $curPage = 1;
+        $cacheKey = 'laravel:articles:index:page:'.$curPage;
+        $redis->set($cacheKey,'');
         #重定向
         return redirect('/articles');
     }

@@ -44,7 +44,7 @@
                         <td>{{$k}}</td>
                         <td>{{$row['id']}}</td>
                         <td class="hidden-480">{{$row['publish_date']}}</td>
-                        <td>{{$row['title']}}</td>
+                        <td><a href="/articles/{{$row['id']}}">{{ $row['title'] }}</a></td>
 
                         <td class="hidden-480">
                             <span class="label label-sm label-warning">Expiring</span>
