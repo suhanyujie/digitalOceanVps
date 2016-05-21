@@ -17,10 +17,11 @@ class AdminController extends Controller
     public function index()
     {
         // 一页多少文章
-        $pageNum = 10;
+        $pageNum = 8;
         $userInfo = \Auth::user();
         $data = array();
         $data['articles'] = \App\Article::latest()->get();
+        
         $data['userInfo'] = $userInfo;
         $dataArticles = array();
 
@@ -33,7 +34,7 @@ class AdminController extends Controller
         if(!$dataArticles || true){
             //$dataArticles = \App\Article::latest()->take($pageNum)->with('content')->get()->toArray();
             $dataArticles = \App\Article::latest()->with('content')->paginate($pageNum)->toArray();
-            //var_dump($dataArticles);exit();
+//             var_dump($dataArticles);exit();
             $redis->setex($cacheKey,3600*12,serialize($dataArticles));
         }else{
             $dataArticles = unserialize($dataArticles);
@@ -42,7 +43,6 @@ class AdminController extends Controller
         $data['articles'] = $dataArticles;
 
         //var_dump($data);exit();
-        //dd($data['articles']);
         // $articleArr[0]['relations']['content']['content']
 
         return view('articles.admin.articleList')->with('data',$data);

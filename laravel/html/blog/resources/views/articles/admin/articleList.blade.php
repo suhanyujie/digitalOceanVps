@@ -3,7 +3,7 @@
 @section('main-content')
 
 <div class="col-xs-12">
-    <h1> test-文章列表 </h1>
+    <h1> 文章列表 </h1>
     <div class="row">
         <div class="col-xs-12">
             <div class="table-responsive">
@@ -41,20 +41,22 @@
                             </label>
                         </td>
 
-                        <td>{{$k}}</td>
+                        <td>{{$k+1}}</td>
                         <td>{{$row['id']}}</td>
                         <td class="hidden-480">{{$row['publish_date']}}</td>
                         <td><a href="/articles/{{$row['id']}}">{{ $row['title'] }}</a></td>
 
                         <td class="hidden-480">
-                            <span class="label label-sm label-warning">Expiring</span>
+                        	@if($row['is_del']<1)
+                            <span class="label label-sm label-success">正常</span>
+                            @else
+                            <span class="label label-sm label-danger">删除</span>
+                            @endif
                         </td>
 
                         <td>
                             <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-                                <button class="btn btn-xs btn-success">
-                                    <i class="icon-ok bigger-120"></i>
-                                </button>
+                               
 
                                 <a class="btn btn-xs btn-info" href="/articles/{{$row['id']}}/edit">
                                     <i class="icon-edit bigger-120"></i>
@@ -64,50 +66,27 @@
                                     <i class="icon-trash bigger-120"></i>
                                 </button>
 
-                                <button class="btn btn-xs btn-warning">
-                                    <i class="icon-flag bigger-120"></i>
-                                </button>
                             </div>
 
-                            <div class="visible-xs visible-sm hidden-md hidden-lg">
-                                <div class="inline position-relative">
-                                    <button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
-                                        <i class="icon-cog icon-only bigger-110"></i>
-                                    </button>
-
-                                    <ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-                                        <li>
-                                            <a href="#" class="tooltip-info" data-rel="tooltip" title="" data-original-title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="/article/{{$row['id']}}/edit" class="tooltip-success" data-rel="tooltip" title="" data-original-title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="tooltip-error" data-rel="tooltip" title="" data-original-title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                         </td>
                     </tr>
                     @endforeach
                     @endif
                     </tbody>
                 </table>
+                @if($data['articles']['last_page']>1)
+                	<div class="modal-footer no-margin-top">
+						<ul class="pagination pull-right no-margin">
+                        	@for($i=1;$i<=$data['articles']['last_page'];$i++)
+                        		<li class="<?=$data['articles']['current_page']==$i?'active' : '';?>">
+            						<a href="/admin?page={{$i}}">{{$i}}</a>
+            					</li>
+                        	@endfor
+						</ul>
+					</div>
+                @endif
+					                
             </div><!-- /.table-responsive -->
         </div><!-- /span -->
     </div>
