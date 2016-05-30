@@ -6,9 +6,20 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Session,Redirect;
 
 class AdminController extends Controller
 {
+    // 身份验证
+    public function __construct()
+    {
+        if(\Auth::check() == false){
+            //return redirect('/auth/login');
+            //return Redirect::guest('/auth/login');
+            return Redirect::intended('/');
+        }
+    }
+    
     /**
      * Display a listing of the resource.
      *

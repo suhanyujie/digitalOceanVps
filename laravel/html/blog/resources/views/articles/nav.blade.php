@@ -68,6 +68,9 @@
                 <li style="display:none;">
                     <span>您好,{{\Auth::user()->name}}</span>
                 </li>
+                <li style="">
+                    <span><a href="/auth/logout">退出</a></span>
+                </li>
             @endif
         </ul>
     </div>

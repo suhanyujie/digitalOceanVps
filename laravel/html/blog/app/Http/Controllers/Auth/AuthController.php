@@ -49,6 +49,19 @@ class AuthController extends Controller
             'password' => 'required|confirmed|min:6',
         ]);
     }
+    
+
+    /**
+     *  退出登录
+     */
+    public function logout(){
+        if(Auth::check()){
+            Auth::logout();
+        }
+        return Redirect::to('login');
+    }
+    
+    
 
     /**
      * Create a new user instance after a valid registration.

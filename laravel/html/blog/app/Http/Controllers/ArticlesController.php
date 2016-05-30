@@ -226,6 +226,7 @@ class ArticlesController extends Controller
         echo '备份成功! <a href="/"> 回到首页 </a>';
         exit();
     }
+    
 
     /**
      * Remove the specified resource from storage.
