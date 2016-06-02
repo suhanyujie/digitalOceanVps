@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Article;
 
 use Illuminate\Http\Request;
 
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Session,Redirect;
@@ -13,11 +14,14 @@ class AdminController extends Controller
     // 身份验证
     public function __construct()
     {
+        //不知道为什么，在这里加 没有效果
+//         if(\Auth::check() == false){
+//             return redirect('/auth/login');
+//         }
         if(\Auth::check() == false){
-            //return redirect('/auth/login');
-            //return Redirect::guest('/auth/login');
-            return Redirect::intended('/');
+            return Redirect::guest('login');
         }
+        return true;
     }
     
     /**
@@ -27,6 +31,9 @@ class AdminController extends Controller
      */
     public function index()
     {
+        if(\Auth::check() == false){
+            //return redirect('/auth/login');
+        }
         // 一页多少文章
         $pageNum = 8;
         $userInfo = \Auth::user();
