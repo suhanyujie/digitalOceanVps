@@ -39,14 +39,16 @@
                 </ul>
             </li>
         </ul>
-        <form class="navbar-form navbar-left" role="search">
+        {!! Form::open(['url' => '/articles/search','class'=>'navbar-form navbar-left','role'=>'search','method'=>'get']) !!}
+<!--         <form class="navbar-form navbar-left" role="search" method="get" action="/articles/search/"> -->
             <div class="form-group">
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" name="keywords">
             </div>
             <button type="submit" class="btn btn-default">
                 Submit
             </button>
-        </form>
+            {!! Form::close() !!}
+<!--         </form> -->
         <ul class="nav navbar-nav navbar-right">
             <li style="display:none;">
                 <a href="#" class="">Link</a>

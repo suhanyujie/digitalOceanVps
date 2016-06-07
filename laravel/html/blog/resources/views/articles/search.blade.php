@@ -4,8 +4,9 @@
     搜索列表-爱生活，锲而不舍
 </title>
 @stop
-
-
+ 
+ 
+@include('articles.nav')
 
 @section('content')
     @if($searchList)
@@ -17,6 +18,11 @@
                 </div>
             </div>
     	@endforeach
+    @else
+    	<h2>没有查询到任何线索！<a href="http://laravel.suhanyu.top/articles/">返回首页</a></h2>
+    	@if(isset($searchList[0]['message']))
+    		{{ $searchList[0]['message'] }}
+    	@endif
     @endif
 @stop
 

@@ -50,7 +50,7 @@ class ArticlesController extends Controller
         }
         
         $data['articles'] = $dataArticles;
-        //var_dump($data);exit();
+        //var_dump($data);exit(); 
         // $articleArr[0]['relations']['content']['content']
 
         return view('articles.index')->with('data',$data);
@@ -168,9 +168,9 @@ class ArticlesController extends Controller
         return redirect('/articles/');
     }
     // 分词搜索
-    public function search($keyword){
+    public function search($keywords=''){
         //$keyword = '服务器';
-
+        $keyword = $keywords ? $keywords : addslashes($_REQUEST['keywords']);
         //header("content-type:text/html;charset=utf-8");
         // include('/home/tmp/tool/coreseek-3.2.14/csft-3.2.14/api/sphinxapi.php');
         $s = new \SphinxClient;
@@ -178,7 +178,7 @@ class ArticlesController extends Controller
         $s->setArrayResult(true); 
         // $s->setSelect();
         $s->setMatchMode(SPH_MATCH_ALL);
-        $result = array();
+        $result = $searchList = array();
         if($keyword){
             $result = $s->query($keyword, 'test1');
             // 获取检索到的文章id 
@@ -208,25 +208,15 @@ class ArticlesController extends Controller
                 }
                 //var_dump($searchList);exit();
                 return view('articles.search',compact('searchList'));
-                
-            }else{
-                echo '没有查询到任何线索！';
-                return;
             }
-            
-            var_dump($titleArr,$result);
         }else{
-            echo '请输入要查询的关键词~';
+            $searchList[0]['message'] = '请输入要查询的关键词~';
             return;
         }
-        if(!$result){
-            echo '没有查询到任何线索！';
-            return;
-        }
-        
-        echo "\n<br>";
-        var_dump(rand(1000,9999));
-        return '';
+       
+        return view('articles.search',compact('searchList'));
+        //var_dump(rand(1000,9999));
+        //return '';
     }
     /**
      * 博客数据库备份

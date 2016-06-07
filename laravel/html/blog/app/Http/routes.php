@@ -34,7 +34,7 @@ Route::post('/articles','ArticlesController@store');
 Route::get('/articles/{id}/edit','ArticlesController@edit');*/
 
 # 搜索路由
-Route::get('/articles/search/{keyword}','ArticlesController@search');
+Route::get('/articles/search','ArticlesController@search');
 // 数据备份路由
 Route::get('/articles/backup','ArticlesController@backup');
 
