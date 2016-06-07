@@ -167,7 +167,7 @@ class ArticlesController extends Controller
 
         return redirect('/articles/');
     }
-    // 分词搜索
+    // 全文分词搜索
     public function search($keywords=''){
         //$keyword = '服务器';
         $keyword = $keywords ? $keywords : addslashes($_REQUEST['keywords']);

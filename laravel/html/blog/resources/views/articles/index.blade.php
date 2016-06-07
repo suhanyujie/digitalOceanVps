@@ -13,7 +13,15 @@
 <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.5/styles/monokai_sublime.min.css">
 <!--  <link rel="stylesheet" type="text/css" href="http://izhengyin.com/css/main.css" />   -->
+<style>
+.content-wrap { background:url(http://i2.buimg.com/141169079dbd0294.jpg) ;}
+/* 鼠标选中颜色 */
+::-moz-selection{background:#93C; color:#FCF;} 
+::selection {background:#93C; color:#FCF;} 
+.content-wrap .main-content article{ background:#fff;border:1px solid #ccc; margin-top:20px; padding:10px; opacity:0.7; } 
+.navbar{ margin-bottom:0;}
 
+</style>
 <script>
 	//  1. Sidebar Position
 	var sidebar_left = false; // Set true or flase for positioning sidebar on left
