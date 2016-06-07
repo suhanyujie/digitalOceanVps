@@ -130,18 +130,32 @@
 	
 	<!-- start tag cloud widget -->
 		<div class="widget">
-		<h4 class="title">标签云</h4>
-		<div class="content tag-cloud">
-						<a href="/tag/5.html">Mysql</a>
-						<a href="/tag/6.html">Yaf</a>
-						<a href="/tag/7.html">Yar</a>
-						<a href="/tag/8.html">Mongodb</a>
-						<a href="/tag/9.html">Amoeba</a>
-						<a href="/tag/10.html">PHP进程管理</a>
-						<a href="javascript:void(0);">...</a>
-		</div>
-	</div>
+    		<h4 class="title">标签云</h4>
+    		<div class="content tag-cloud">
+    						<a href="/tag/5.html">Mysql</a>
+    						<a href="/tag/6.html">Yaf</a>
+    						<a href="/tag/7.html">Yar</a>
+    						<a href="/tag/8.html">Mongodb</a>
+    						<a href="/tag/9.html">Amoeba</a>
+    						<a href="/tag/10.html">PHP进程管理</a>
+    						<a href="javascript:void(0);">...</a>
+    		</div>
+    	</div>
 		<!--  end tag cloud widget -->
+		
+		
+		<div class="widget">
+    		<h4 class="title">友情链接</h4>
+    		<div class="content tag-cloud">
+    			<a href="https://github.com/suhanyujie">我的github</a>
+				<a href="http://blog.52fhy.com/">飞鸿影</a>
+				<a href="https://github.com/52fhy/">飞鸿影的github</a>
+				<a href="http://www.cnblogs.com/52fhy/">飞鸿影的cnblog</a>
+				<a href="http://www.cnblogs.com/ishenghuo/">我的cnblog</a>
+				
+    		</div>
+    	</div>
+		
 	<!-- start widget -->
 	<div class="widget">
 		<h4 class="title">联系我</h4>
@@ -161,7 +175,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<span>Copyright &copy; <a href="http://izhengyin.com/">laravel.suhanyu.top 个人博客</a> </span> | <span><a href="http://www.miibeian.gov.cn/"
+				<span>Copyright &copy; <a href="http://laravel.suhanyu.top">laravel.suhanyu.top 个人博客</a> </span> | <span><a href="http://laravel.suhanyu.top/"
 						target="_blank">爱生活-锲而不舍</a>
 			</div>
 		</div>

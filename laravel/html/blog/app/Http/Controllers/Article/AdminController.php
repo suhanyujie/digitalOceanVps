@@ -18,10 +18,10 @@ class AdminController extends Controller
 //         if(\Auth::check() == false){
 //             return redirect('/auth/login');
 //         }
-        if(\Auth::check() == false){
-            return Redirect::guest('login');
-        }
-        return true;
+//         if(\Auth::check() == false){
+//             return Redirect::guest('login');
+//         }
+//         return true;
     }
     
     /**
@@ -32,7 +32,7 @@ class AdminController extends Controller
     public function index()
     {
         if(\Auth::check() == false){
-            //return redirect('/auth/login');
+            return redirect('/auth/login');
         }
         // 一页多少文章
         $pageNum = 8;

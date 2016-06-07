@@ -169,7 +169,8 @@ class ArticlesController extends Controller
     }
     // 分词搜索
     public function search($keyword){
-        //$keyword = '服务器'; 
+        //$keyword = '服务器';
+
         //header("content-type:text/html;charset=utf-8");
         // include('/home/tmp/tool/coreseek-3.2.14/csft-3.2.14/api/sphinxapi.php');
         $s = new \SphinxClient;
@@ -189,12 +190,25 @@ class ArticlesController extends Controller
                 }
                 $idStr = implode(',',$idArr);
                 // 查找文章 
-                $data['articles'] = \DB::table('articles')->whereRaw('id in ('.$idStr.')')->get();
+                $data['articles'] = \DB::table('blog_articles')->whereRaw('id in ('.$idStr.')')->get();
+                $contentArr =  \DB::table('blog_content')->whereRaw('article_id in ('.$idStr.')')->get();
+                if($contentArr){
+                    $newContentArr = array();
+                    foreach($contentArr as $k=>$v){
+                        $newContentArr[$v->article_id] = $v->content;
+                    }
+                    $contentArr = $newContentArr;
+                    unset($newContentArr);
+                }
                 if($data['articles']){
                     foreach($data['articles'] as $k=>$v){
-                        $titleArr[] = $v->title;
+                        $searchList[$k]['title'] = $v->title;
+                        $searchList[$k]['content'] = $contentArr[$v->id];
                     }
                 }
+                //var_dump($searchList);exit();
+                return view('articles.search',compact('searchList'));
+                
             }else{
                 echo '没有查询到任何线索！';
                 return;
