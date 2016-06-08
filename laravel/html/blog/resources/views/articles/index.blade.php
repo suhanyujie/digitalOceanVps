@@ -14,11 +14,14 @@
 <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.5/styles/monokai_sublime.min.css">
 <style>
 .content-wrap { background:url(http://i2.buimg.com/141169079dbd0294.jpg) ;}
+.navbar{ margin-bottom:0;}
 /* 鼠标选中颜色 */
 ::-moz-selection{background:#93C; color:#FCF;} 
 ::selection {background:#93C; color:#FCF;} 
-.content-wrap .main-content article,.content-wrap .main-content .little-label{ background:#fff;border:1px solid #ccc; margin-top:20px; padding:10px; opacity:0.7; } 
-.navbar{ margin-bottom:0;}
+.content-wrap .main-content article,.content-wrap .main-content .little-label{ background:#fff;border:1px solid #ccc; margin-top:20px; padding:10px; border-radius:10px; opacity:0.7; } 
+
+.content-wrap .main-content article .post-content{ margin:10px auto; }
+.content-wrap .main-content article .post-permalink{ margin-bottom:10px; }
 
 /* 返回顶部 */
 #back-to-top{ position: fixed;z-index: 99; left: 50%; bottom: 60px; width: 40px; height: 48px;border-radius:5px; margin-left: 510px;margin-right:30px;background:url(http://icon.zol-img.com.cn/mainpage/20150210/index-icon-20150505.png)no-repeat;background-position:50% -386px;background-color:#fafafa;text-indent:-9999em;font:0/0 arial;overflow:hidden;}

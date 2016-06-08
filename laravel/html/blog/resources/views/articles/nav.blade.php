@@ -51,11 +51,14 @@
                 </ul>
             </li>
             @elseif(\Auth::user())
-                <li style="display:none;">
+                <li style="" class="label label-info">
                     <span>您好,{{\Auth::user()->name}}</span>
                 </li>
-                <li style="">
+                <li class="label label-info">
                     <span><a href="/auth/logout">退出</a></span>
+                </li>
+                <li class="label label-info">
+                    <span><a href="/admin">后台</a></span>
                 </li>
             @endif
         </ul>
