@@ -14,27 +14,11 @@
             <li style="display:none;">
                 <a href="#" class="disabled">Link</a>
             </li>
-            <li class="dropdown" style="display:none;">
-                <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+            <li class="dropdown" >
+                <a href="http://tool.lu/" class="dropdown-toggle" data-toggle="dropdown">前端导航<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="#">Action</a>
-                    </li>
-                    <li>
-                        <a href="#">Another action</a>
-                    </li>
-                    <li>
-                        <a href="#">Something else here</a>
-                    </li>
-                    <li class="divider">
-                    </li>
-                    <li>
-                        <a href="#">Separated link</a>
-                    </li>
-                    <li class="divider">
-                    </li>
-                    <li>
-                        <a href="#">One more separated link</a>
+                        <a href="http://tool.lu/">压缩/格式化</a>
                     </li>
                 </ul>
             </li>

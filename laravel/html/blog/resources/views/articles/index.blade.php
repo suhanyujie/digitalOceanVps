@@ -12,16 +12,20 @@
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.5/styles/monokai_sublime.min.css">
-<!--  <link rel="stylesheet" type="text/css" href="http://izhengyin.com/css/main.css" />   -->
 <style>
 .content-wrap { background:url(http://i2.buimg.com/141169079dbd0294.jpg) ;}
 /* 鼠标选中颜色 */
 ::-moz-selection{background:#93C; color:#FCF;} 
 ::selection {background:#93C; color:#FCF;} 
-.content-wrap .main-content article{ background:#fff;border:1px solid #ccc; margin-top:20px; padding:10px; opacity:0.7; } 
+.content-wrap .main-content article,.content-wrap .main-content .little-label{ background:#fff;border:1px solid #ccc; margin-top:20px; padding:10px; opacity:0.7; } 
 .navbar{ margin-bottom:0;}
 
+/* 返回顶部 */
+#back-to-top{ position: fixed;z-index: 99; left: 50%; bottom: 60px; width: 40px; height: 48px;border-radius:5px; margin-left: 510px;margin-right:30px;background:url(http://icon.zol-img.com.cn/mainpage/20150210/index-icon-20150505.png)no-repeat;background-position:50% -386px;background-color:#fafafa;text-indent:-9999em;font:0/0 arial;overflow:hidden;}
+#back-to-top:hover{ background-color:#6393E2; }
+
 </style>
+<base target="_blank"/>
 <script>
 	//  1. Sidebar Position
 	var sidebar_left = false; // Set true or flase for positioning sidebar on left
@@ -119,30 +123,29 @@
 		<!-- end widget -->
 	
 	<!-- start tag cloud widget -->
-		<div class="widget">
+		<div class="widget little-label">
     		<h4 class="title">标签云</h4>
     		<div class="content tag-cloud">
-    						<a href="/tag/5.html">Mysql</a>
-    						<a href="/tag/6.html">Yaf</a>
-    						<a href="/tag/7.html">Yar</a>
-    						<a href="/tag/8.html">Mongodb</a>
-    						<a href="/tag/9.html">Amoeba</a>
-    						<a href="/tag/10.html">PHP进程管理</a>
+    						<a href="/tag/5.html" class="label label-info">Mysql</a>
+    						<a href="/tag/6.html" class="label label-info">Yaf</a>
+    						<a href="/tag/7.html" class="label label-info">Yar</a>
+    						<a href="/tag/8.html" class="label label-info">Mongodb</a>
+    						<a href="/tag/9.html" class="label label-info">Amoeba</a>
+    						<a href="/tag/10.html" class="label label-info">PHP进程管理</a>
     						<a href="javascript:void(0);">...</a>
     		</div>
     	</div>
 		<!--  end tag cloud widget -->
 		
 		
-		<div class="widget">
+		<div class="widget little-label">
     		<h4 class="title">友情链接</h4>
     		<div class="content tag-cloud">
-    			<a href="https://github.com/suhanyujie">我的github</a>
-				<a href="http://blog.52fhy.com/">飞鸿影</a>
-				<a href="https://github.com/52fhy/">飞鸿影的github</a>
-				<a href="http://www.cnblogs.com/52fhy/">飞鸿影的cnblog</a>
-				<a href="http://www.cnblogs.com/ishenghuo/">我的cnblog</a>
-				
+    			<a href="https://github.com/suhanyujie" class="label label-primary">我的github</a>
+				<a href="http://blog.52fhy.com/" class="label label-primary">飞鸿影</a>
+				<a href="https://github.com/52fhy/" class="label label-primary">飞鸿影的github</a>
+				<a href="http://www.cnblogs.com/52fhy/" class="label label-primary">飞鸿影的cnblog</a>
+				<a href="http://www.cnblogs.com/ishenghuo/" class="label label-primary">我的cnblog</a>
     		</div>
     	</div>
 		
@@ -152,7 +155,7 @@
 
 		<p style="margin-top:10px;"><wb:follow-button uid="3204981003" type="red_4" width="100%" height="64" ></wb:follow-button></p>
 		
-		<p style="margin-top:10px;"><span style="color:red;">Email</span> : suhanyujie@163.com</p>
+		<p style="margin-top:10px;"><span style="color:red;">Email</span> : suhanyujie@qq.com</p>
 	</div>
 	<!-- end widget -->
 </aside>
@@ -172,12 +175,24 @@
 	</div>
 </div>
 
-<a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+<a href="#" id="back-to-top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
 
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="http://cdn.bootcss.com/fitvids/1.1.0/jquery.fitvids.min.js"></script>
 <script src="http://cdn.bootcss.com/highlight.js/8.5/highlight.min.js"></script>
+<script type="text/javascript">
+$(window).scroll(function(){
+    var sT=$(this).scrollTop();
+    if(sT >= 850) {
+        $('#back-to-top').show();
+    }
+    if(sT < 850){
+        $('#back-to-top').hide();
+    }
+   
+});
 
+</script>
 </body>
 </html>
