@@ -178,7 +178,7 @@
 	</div>
 </div>
 
-<a href="#" id="back-to-top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+<a href="javascript:void(0);" id="back-to-top" target="_self"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
 
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -194,6 +194,9 @@ $(window).scroll(function(){
         $('#back-to-top').hide();
     }
    
+});
+$('#back-to-top').click(function(){
+	$(window).scrollTop(0);
 });
 
 </script>
