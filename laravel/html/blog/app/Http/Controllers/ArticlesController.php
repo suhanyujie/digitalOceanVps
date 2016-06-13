@@ -202,6 +202,7 @@ class ArticlesController extends Controller
                 }
                 if($data['articles']){
                     foreach($data['articles'] as $k=>$v){
+                        $searchList[$k]['id'] = $v->id;
                         $searchList[$k]['title'] = $v->title;
                         $searchList[$k]['content'] = $contentArr[$v->id];
                     }
@@ -222,7 +223,8 @@ class ArticlesController extends Controller
      * 博客数据库备份
      */
     public function backup(){
-        $command = 'cd /data/backup/;ls;/usr/local/mysql/bin/mysqldump -uroot -p6852432 --opt --databases laravel > /data/backup/laravel_'.date('Y-m-d H:').'.bk';
+        $passwdPart = '6852';
+        $command = 'cd /data/backup/;ls;/usr/local/mysql/bin/mysqldump -uroot -p'.$passwdPart.'432 --opt --databases laravel > /data/backup/laravel_'.date('Y-m-d H:').'.bk';
         system($command,$return);
         echo '<pre>';
         var_dump($return);

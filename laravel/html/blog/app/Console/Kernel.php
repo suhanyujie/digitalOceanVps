@@ -8,12 +8,13 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 class Kernel extends ConsoleKernel
 {
     /**
-     * The Artisan commands provided by your application.
+     * The Artisan commands provided by your application. /www/html/laravel/html/blog
      *
      * @var array
      */
     protected $commands = [
         Commands\Inspire::class,
+        Commands\UpdateArticleSearchIndex::class,
     ];
 
     /**
@@ -26,5 +27,6 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command('inspire')
                  ->hourly();
+        $schedule->command('article:search')->twiceDaily(9, 13);
     }
 }
