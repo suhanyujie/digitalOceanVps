@@ -42,10 +42,10 @@
                 <a href="#" class="dropdown-toggle " data-toggle="dropdown">登陆/注册<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="/auth/login">登录</a>
+                        <a href="/auth/login" target="_self">登录</a>
                     </li>
                     <li>
-                        <a href="/auth/register">注册</a>
+                        <a href="/auth/register" target="_self">注册</a>
                     </li>
 
                 </ul>
@@ -55,10 +55,10 @@
                     <span>您好,{{\Auth::user()->name}}</span>
                 </li>
                 <li class="label label-info">
-                    <span><a href="/auth/logout">退出</a></span>
+                    <span><a href="/auth/logout" target="_self">退出</a></span>
                 </li>
                 <li class="label label-info">
-                    <span><a href="/admin">后台</a></span>
+                    <span><a href="/admin" target="_self">后台</a></span>
                 </li>
             @endif
         </ul>
