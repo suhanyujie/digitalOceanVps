@@ -22,6 +22,34 @@
                     </li>
                 </ul>
             </li>
+            <li class="dropdown" >
+                <a href="http://tool.lu/" class="dropdown-toggle" data-toggle="dropdown">Laravel<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="http://www.golaravel.com/laravel/docs/5.1/quickstart-intermediate/">laravel文档</a>
+                    </li>
+                    <li>
+                        <a href="http://laravel-china.org/docs/5.1/eloquent-serialization">laravel全中文文档</a>
+                    </li>
+                    <li>
+                        <a href="http://laravelbase.com/collections/1/36">laravel文档攻略</a>
+                    </li>
+                    <li>
+                        <a href="http://laravelacademy.org/docs/laravel-5_1">laravel学院文档</a>
+                    </li>
+                    <li>
+                        <a href="http://laravelacademy.org/post/153.html">laravel资源大全</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown" >
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">设计模式<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="http://laravelacademy.org/post/2935.html">设计模式学习</a>
+                    </li>
+                </ul>
+            </li>
         </ul>
         {!! Form::open(['url' => '/articles/search','class'=>'navbar-form navbar-left','role'=>'search','method'=>'get']) !!}
 <!--         <form class="navbar-form navbar-left" role="search" method="get" action="/articles/search/"> -->

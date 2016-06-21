@@ -1,4 +1,7 @@
 <?php
+date_default_timezone_set('Asia/Shanghai');
+phpinfo();
+
 header('Content-type:text/html;charset=utf-8');
 
 $classifyInfo=array(
@@ -13,7 +16,6 @@ foreach($classifyInfo as $k=>$v){
 	}
 }
 
-//phpinfo();
 exit;
 
 
