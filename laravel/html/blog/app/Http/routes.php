@@ -35,6 +35,10 @@ Route::get('/articles/{id}/edit','ArticlesController@edit');*/
 
 # 搜索路由
 Route::get('/articles/search','ArticlesController@search');
+# 留言路由
+//Route::get('/articles/leaveWords','\App\Http\Controllers\Article\LeaveMessageController@create');
+Route::resource('/articles/message','\App\Http\Controllers\Article\LeaveMessageController');
+
 // 数据备份路由
 Route::get('/articles/backup','ArticlesController@backup');
 

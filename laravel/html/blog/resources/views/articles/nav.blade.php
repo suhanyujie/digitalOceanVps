@@ -50,6 +50,9 @@
                     </li>
                 </ul>
             </li>
+            <li class="dropdown">
+                <a href="/articles/message" target="_self">留言</a>
+            </li>
         </ul>
         {!! Form::open(['url' => '/articles/search','class'=>'navbar-form navbar-left','role'=>'search','method'=>'get']) !!}
 <!--         <form class="navbar-form navbar-left" role="search" method="get" action="/articles/search/"> -->

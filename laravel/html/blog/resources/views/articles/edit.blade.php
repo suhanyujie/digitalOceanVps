@@ -2,7 +2,7 @@
 @extends('app')
 @section('title')
     <title>
-       1编辑文章： {{$articles->title}}
+       编辑文章： {{$articles->title}}
     </title>
 @stop
 

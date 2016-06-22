@@ -232,6 +232,12 @@ class ArticlesController extends Controller
         echo '备份成功! <a href="/"> 回到首页 </a>';
         exit();
     }
+    /**
+     * 留言
+     */
+    public function leaveWords(){
+
+    }
     
 
     /**

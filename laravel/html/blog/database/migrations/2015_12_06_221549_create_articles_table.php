@@ -12,7 +12,7 @@ class CreateArticlesTable extends Migration
      */
     public function up()
     {
-        Schema::create('articles', function (Blueprint $table) {
+        Schema::create('blog_articles', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('class_id');
             $table->integer('subclass_id');
@@ -21,6 +21,7 @@ class CreateArticlesTable extends Migration
             $table->integer('publish_date');
             $table->tinyInteger('publish_status');
             $table->text('content');
+            $table->integer('user_id')->default(1);
             $table->tinyInteger('is_del');
 
 

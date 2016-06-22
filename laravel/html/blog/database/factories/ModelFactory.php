@@ -19,3 +19,11 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+// 留言seeder
+$factory->define(\App\Model\Article\LeaveMessageModel::class, function (Faker\Generator $faker) {
+    return [
+        'username' => $faker->name,
+        'email' => $faker->email,
+        'message' => $faker->paragraph(2),
+    ];
+});
