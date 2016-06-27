@@ -32,7 +32,7 @@ $compiledPath = __DIR__.'/cache/compiled.php';
 /**
  * 自己引入文件 suhy
  */
-require __DIR__.'/../app/libraries/sphinxapi.php';
+require __DIR__.'/../app/Libs/sphinxapi.php';
 
 
 

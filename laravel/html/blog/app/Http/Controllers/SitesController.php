@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use \Libs;
+
 class SitesController extends Controller
 {
     /**
@@ -16,27 +18,33 @@ class SitesController extends Controller
      */
     public function index()
     {
-        //
+
         echo 'This is SitesCroller~';
     }
     /**
-     * �����õ�about����
+     * 测试用的about方法
+     * 目前用于将图片上传至贴图库 suhy 20160623
      */
     public function about(){
-        echo 'This is SitesController @ about~';
-        $name = 'Samuel Su';
-        $data = [];
-        $param1 = 'param1';
-        $param2 = 'param2';
-        return view('sites.about',compact('param1','param2'))->with([
-            'first'=>'Wangliguo',
-            'second'=>'Fujunyao',
-            'third'=>'Xujingzhong',
-            'name'=>'Suhanyu'
-        ]);
+        // 处理 文件上传
+        define('MY_ACCESSKEY', 'be2464de338b26a0d278f638b671e54065897f2e');//获取地址:http://open.tietuku.cn/manager
+        define('MY_SECRETKEY', 'da39a3ee5e6b4b0d3255bfef95601890afd80709');//获取地址:http://open.tietuku.cn/manager
+        $photoId = 1194744;
+        $file = addslashes($_POST['file']);
+        $data = base64_decode(preg_replace('#data:image/[^;]*;base64,#', '', $file));
+        $filePath = '/www/html/laravel/html/blog/public/test/'.uniqid('mdimg').'.png';
+        file_put_contents($filePath, $data);
+        //$filePath = '/www/html/laravel/html/blog/public/favicon.ico';
+
+        $ttk=new Libs\Tietuku\TietukuClient(MY_ACCESSKEY,MY_SECRETKEY);
+        //if(!$_FILES)return ['code'=>0,'msg'=>'没有上传文件'];
+        //$res = $ttk->uploadFile($photoId,$_FILES['file']['tmp_name']);
+        $res = $ttk->uploadFile($photoId,$filePath);
+        echo $res;
+        exit();
     }
     /**
-     * ���Է�����contact
+     * 测试方法：contact
      */
     public function contact(){
         $people = ['Suhanyu','Huyiping','Fujunyao'];

@@ -20,7 +20,8 @@ Route::get('/test-sql', function() {
 });
 
 Route::get('/','ArticlesController@index');
-Route::get('/about','SitesController@about');
+//Route::get('/about','SitesController@about');
+Route::post('/upfile','SitesController@about');
 Route::get('/contact','SitesController@contact');
 
 Route::get('admin', function () {
@@ -38,6 +39,9 @@ Route::get('/articles/search','ArticlesController@search');
 # 留言路由
 //Route::get('/articles/leaveWords','\App\Http\Controllers\Article\LeaveMessageController@create');
 Route::resource('/articles/message','\App\Http\Controllers\Article\LeaveMessageController');
+Route::get('/articles/testmessage',function(){
+    return view('articles.messageOld');
+});
 
 // 数据备份路由
 Route::get('/articles/backup','ArticlesController@backup');

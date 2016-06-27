@@ -17,7 +17,7 @@ class LeaveMessageController extends Controller
     public function index()
     {
         // 留言的展示
-        $list = \App\Model\Article\LeaveMessageModel::all();
+        $list = \App\Model\Article\LeaveMessageModel::where([])->orderBy('id', 'desc')->get();
 
         return view('articles.message',['dataList' => $list]);
     }
@@ -29,7 +29,7 @@ class LeaveMessageController extends Controller
      */
     public function create()
     {
-        return view('articles.message');
+        return view('articles.messageForm');
     }
 
     /**
@@ -55,7 +55,8 @@ class LeaveMessageController extends Controller
      */
     public function show($id)
     {
-        //
+        $res = \App\Model\Article\LeaveMessageModel::find($id);
+        return $res['message'];
     }
 
     /**
