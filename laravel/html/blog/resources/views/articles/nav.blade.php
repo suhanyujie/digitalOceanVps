@@ -26,6 +26,9 @@
                 <a href="http://tool.lu/" class="dropdown-toggle" data-toggle="dropdown">Laravel<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li>
+                        <a href="http://oomusou.io/laravel/laravel-architecture/">laravel中大架构</a>
+                    </li>
+                    <li>
                         <a href="http://www.golaravel.com/laravel/docs/5.1/quickstart-intermediate/">laravel文档</a>
                     </li>
                     <li>
@@ -38,7 +41,13 @@
                         <a href="http://laravelacademy.org/docs/laravel-5_1">laravel学院文档</a>
                     </li>
                     <li>
+                        <a href="http://laravel.so/">laravel.so</a>
+                    </li>
+                    <li>
                         <a href="http://laravelacademy.org/post/153.html">laravel资源大全</a>
+                    </li>
+                    <li>
+                        <a href="http://m.aoh.cc/1.html">laravel资源大全2</a>
                     </li>
                 </ul>
             </li>
@@ -50,6 +59,19 @@
                     </li>
                 </ul>
             </li>
+            <li class="dropdown" >
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">前沿<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="https://github.com/ThinkDevelopers/PHPConChina/tree/master/PHPCON2016">phpcon大会</a>
+                    </li>
+                    <li>
+                        <a href="http://www.phpconchina.com/">phpcon官网</a>
+                    </li>
+                </ul>
+            </li>
+
+
             <li class="dropdown">
                 <a href="/articles/message/create" target="_self">留言</a>
             </li>

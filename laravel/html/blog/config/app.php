@@ -138,6 +138,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Illuminate\Html\HtmlServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
         YuanChao\Editor\EndaEditorServiceProvider::class,
         Stevenyangecho\UEditor\UEditorServiceProvider::class,
 

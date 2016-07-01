@@ -9,11 +9,13 @@
         "laravel/framework": "5.1.*",
         "doctrine/dbal": "^2.5",
         "illuminate/html": "^5.0",
-        "barryvdh/laravel-ide-helper":"^2.1",
+        "barryvdh/laravel-ide-helper":"^2.2",
         "yuanchao/laravel-5-markdown-editor": "dev-master",
         "stevenyangecho/laravel-u-editor": "~1.1",
         "dflydev/apache-mime-types": "^1.0",
-        "predis/predis": "1.0.*"
+        "predis/predis": "1.0.*",
+        "barryvdh/laravel-debugbar": "^2.2",
+        "acabin/laravoole": "^0.1.9"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -27,7 +29,8 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Libs\\":"app/Libs/"
+            "Libs\\":"app/Libs/",
+            "MyBlog\\":"app/MyBlog/"
         }
     },
     "autoload-dev": {

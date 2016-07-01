@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use MyBlog\Repositories\ArticleRepository;
 
 use App\Article;
 use App\Content;
@@ -25,6 +26,8 @@ class ArticlesController extends Controller
      */
     public function index()
     {
+        //$a = new ArticleRepository(new \App\Article);
+        //var_dump($a->getLatestArticles());exit();
         // 一页多少文章
         $pageNum = 10;
         $userInfo = \Auth::user();
