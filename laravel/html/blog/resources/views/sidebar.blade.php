@@ -11,7 +11,7 @@
 
     <link href="//cdn.bootcss.com/bootstrap/3.0.0/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="http://laravel.suhanyu.top/my_style/bootstrap/css/font-awesome.min.css" />
-
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <!--[if IE 7]>
     <link rel="stylesheet" href="http://laravel.suhanyu.top/my_style/bootstrap/css/font-awesome-ie7.min.css" />
     <![endif]-->

@@ -7,6 +7,7 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="table-responsive">
+                <input class="data_token" type="hidden" value="{{ csrf_token() }}" name="_token"/>
                 <table id="sample-table-1" class="table table-striped table-bordered table-hover">
                     <thead>
                     <tr>
@@ -62,7 +63,7 @@
                                     <i class="icon-edit bigger-120"></i>
                                 </a>
 
-                                <button class="btn btn-xs btn-danger">
+                                <button class="btn btn-xs btn-danger delete-btn" data-id="{{$row['id']}}">
                                     <i class="icon-trash bigger-120"></i>
                                 </button>
 
@@ -91,4 +92,26 @@
         </div><!-- /span -->
     </div>
 </div>
+<script>
+    $('.delete-btn').click(function(){
+        if(confirm('确定删除?这可是永久删除的!')){
+            var id = parseInt($(this).attr('data-id'));
+            var token = $('.data_token').val();
+            $.ajax({
+                url: '/admin/'+id,
+                type: 'DELETE',
+                data:{_token:token},
+                success: function(result) {
+                    if(result.code>0){
+                        location.href = location.href;
+                    }
+                }
+            });
+        }else{
+            return false;
+        }
+    });
+
+
+</script>
 @stop

@@ -25,7 +25,7 @@
     {!! Form::label('publish_date','Publish_date:') !!}
     {!! Form::input('date','publish_date',date('Y-m-d H:i:s'),['class'=>'form-control']) !!}
 </div>
-	{!! Form::submit('发布文章',['class'=>'btn brn-primary']) !!}
+	{!! Form::submit('发布文章',['class'=>'btn brn-primary publish-article']) !!}
 
 
 <script>

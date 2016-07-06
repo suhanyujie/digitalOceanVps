@@ -112,7 +112,7 @@ var browser = UE.browser = function(){
     * ```
     */
     browser.gecko =( navigator.product == 'Gecko' && !browser.webkit && !browser.opera && !browser.ie);
-
+    
     var version = 0;
 
     // Internet Explorer 6.0+

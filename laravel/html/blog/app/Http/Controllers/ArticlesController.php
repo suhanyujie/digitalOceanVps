@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use MyBlog\Repositories\ArticleRepository;
@@ -171,9 +170,13 @@ class ArticlesController extends Controller
         return redirect('/articles/');
     }
     // 全文分词搜索
-    public function search($keywords=''){
+    public function search(Request $request){
         //$keyword = '服务器';
-        $keyword = $keywords ? $keywords : addslashes($_REQUEST['keywords']);
+        //$keywords = $requests->get('keywords');
+        //$requests = $request;
+        //return $requests->get('keywords')->toString();
+        $keyword = $request->get('keywords');
+        //$keyword = $keywords ? addslashes($keywords) : addslashes($_REQUEST['keywords']);
         //header("content-type:text/html;charset=utf-8");
         // include('/home/tmp/tool/coreseek-3.2.14/csft-3.2.14/api/sphinxapi.php');
         $s = new \SphinxClient;

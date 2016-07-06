@@ -89,9 +89,7 @@
                         		<div class="pull-right share"></div>
                         	</footer>
                         </article>
-					
 					@endforeach
-					
 					
 					<nav class="pagination" role="navigation">
 						@if(isset($data['articles']['prev_page_url']))

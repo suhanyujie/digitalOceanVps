@@ -22,9 +22,7 @@
                     <div class="media-body">
                         <h4 class="media-heading">{{$v['username']}}<small class="label label-info">{{$v['created_at']}}</small></h4>
                         <div id="message-content-{{$k}}">
-                            <textarea style="display: none;" class="message-content"  >
-                                {!! trim($v['message']) !!}
-                            </textarea>
+                            <textarea style="display: none;" class="message-content"  >{!! trim($v['message']) !!}</textarea>
                         </div>
                     </div>
                 </div>
@@ -34,23 +32,24 @@
 
     </div>
     <!--  读markdown时引入js Start-->
-    <script src="http://zwiki.zol.com.cn/js/editor.md/lib/marked.min.js"></script>
-    <script src="https://pandao.github.io/editor.md/lib/prettify.min.js"></script>
-    <script src="https://pandao.github.io/editor.md/lib/raphael.min.js"></script>
-    <script src="https://pandao.github.io/editor.md/lib/underscore.min.js"></script>
-    <script src="https://pandao.github.io/editor.md/lib/sequence-diagram.min.js"></script>
-    <script src="https://pandao.github.io/editor.md/lib/flowchart.min.js"></script>
-    <script src="https://pandao.github.io/editor.md/lib/jquery.flowchart.min.js"></script>
-    <script src="http://pandao.github.io/editor.md/editormd.js"></script>
+    <script src="/plugin/editor.md/lib/marked.min.js"></script>
+    <script src="/plugin/editor.md/lib/prettify.min.js"></script>
+    <script src="/plugin/editor.md/lib/raphael.min.js"></script>
+    <script src="/plugin/editor.md/lib/underscore.min.js"></script>
+    <script src="/plugin/editor.md/lib/sequence-diagram.min.js"></script>
+    <script src="/plugin/editor.md/lib/flowchart.min.js"></script>
+    <script src="/plugin/editor.md/lib/jquery.flowchart.min.js"></script>
+    <script src="/plugin/editor.md/editormd.js"></script>
     <!--  读markdown时引入js End-->
     <script type="text/javascript">
         //  /plugin/editor.md/lib/
+
         $(function() {
             // markdown内容的显示
             var testEditormdView, testEditormdView2;
             $('#layout .media').each(function(index,ele){
-                testEditormdView2 = editormd.markdownToHTML("message-content-"+index, {
-                    markdown        : $('#message-content-'+index+' textarea').html() ,//+ "\r\n" + $("#append-test").text(),
+                editormd.markdownToHTML("message-content-"+index, {
+                    // markdown        : $('#message-content-'+index+' textarea').html() ,//+ "\r\n" + $("#append-test").text(),
                     htmlDecode      : "style,script,iframe",  // you can filter tags decode
                     emoji           : true,
                     taskList        : true,

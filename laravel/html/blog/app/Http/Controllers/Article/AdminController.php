@@ -129,6 +129,11 @@ class AdminController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $id = (int)$id;
+        if(!$id)return ['code'=>0,'msg'=>'删除失败,请重试.'];
+        $post = \App\Article::find($id);
+        $post->update(['is_del'=>1]);
+        $post->delete();
+        return ['code'=>1,'msg'=>'success'];
     }
 }
