@@ -9,11 +9,11 @@
 <meta name="keywords"  content="">
 <meta name="HandheldFriendly" content="True" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.5/styles/monokai_sublime.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/8.5/styles/monokai_sublime.min.css">
 <style>
-.content-wrap { background:url(http://i2.buimg.com/141169079dbd0294.jpg) ;}
+.content-wrap { background:url(//i2.buimg.com/141169079dbd0294.jpg) ;}
 .navbar{ margin-bottom:0;}
 /* 鼠标选中颜色 */
 ::-moz-selection{background:#93C; color:#FCF;} 
@@ -24,7 +24,7 @@
 .content-wrap .main-content article .post-permalink{ margin-bottom:10px; }
 
 /* 返回顶部 */
-#back-to-top{ position: fixed;z-index: 99; left: 50%; bottom: 60px; width: 40px; height: 48px;border-radius:5px; margin-left: 510px;margin-right:30px;background:url(http://icon.zol-img.com.cn/mainpage/20150210/index-icon-20150505.png)no-repeat;background-position:50% -386px;background-color:#fafafa;text-indent:-9999em;font:0/0 arial;overflow:hidden;}
+#back-to-top{ position: fixed;z-index: 99; left: 50%; bottom: 60px; width: 40px; height: 48px;border-radius:5px; margin-left: 510px;margin-right:30px;background:url(//icon.zol-img.com.cn/mainpage/20150210/index-icon-20150505.png)no-repeat;background-position:50% -386px;background-color:#fafafa;text-indent:-9999em;font:0/0 arial;overflow:hidden;}
 #back-to-top:hover{ background-color:#6393E2; }
 
 </style>
@@ -69,7 +69,7 @@
                         			<a href="{{url('articles',$row['id'])}}">{{$row['title']}}</a>
                         		</h1>
                         		<div class="post-meta">
-                        			<span class="author">作者：<a href="http://weibo.com/u/1889337694">suhy</a></span>
+                        			<span class="author">作者：<a href="//weibo.com/u/1889337694">suhy</a></span>
                         			&bull;
                         			<time class="post-date" datetime="{{ $row['publish_date'] }}"
                         				title="{{ $row['publish_date'] }}">{{ $row['publish_date'] }}</time>
@@ -143,10 +143,10 @@
     		<h4 class="title">友情链接</h4>
     		<div class="content tag-cloud">
     			<a href="https://github.com/suhanyujie" class="label label-primary">我的github</a>
-				<a href="http://blog.52fhy.com/" class="label label-primary">飞鸿影</a>
+				<a href="//blog.52fhy.com/" class="label label-primary">飞鸿影</a>
 				<a href="https://github.com/52fhy/" class="label label-primary">飞鸿影的github</a>
-				<a href="http://www.cnblogs.com/52fhy/" class="label label-primary">飞鸿影的cnblog</a>
-				<a href="http://www.cnblogs.com/ishenghuo/" class="label label-primary">我的cnblog</a>
+				<a href="//www.cnblogs.com/52fhy/" class="label label-primary">飞鸿影的cnblog</a>
+				<a href="//www.cnblogs.com/ishenghuo/" class="label label-primary">我的cnblog</a>
     		</div>
     	</div>
 		
@@ -154,7 +154,6 @@
 	<div class="widget">
 		<h4 class="title">联系我</h4>
 
-		<p style="margin-top:10px;"><wb:follow-button uid="3204981003" type="red_4" width="100%" height="64" ></wb:follow-button></p>
 		
 		<p style="margin-top:10px;"><span style="color:red;">Email</span> : suhanyujie@qq.com</p>
 	</div>
@@ -169,7 +168,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<span>Copyright &copy; <a href="http://laravel.suhanyu.top">laravel.suhanyu.top 个人博客</a> </span> | <span><a href="http://laravel.suhanyu.top/"
+				<span>Copyright &copy; <a href="//laravel.suhanyu.top">laravel.suhanyu.top 个人博客</a> </span> | <span><a href="//laravel.suhanyu.top/"
 						target="_blank">爱生活-锲而不舍</a>
 			</div>
 		</div>
@@ -178,10 +177,10 @@
 
 <a href="javascript:void(0);" id="back-to-top" target="_self"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
 
-<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="http://cdn.bootcss.com/fitvids/1.1.0/jquery.fitvids.min.js"></script>
-<script src="http://cdn.bootcss.com/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/8.5/highlight.min.js"></script>
 <script type="text/javascript">
 $(window).scroll(function(){
     var sT=$(this).scrollTop();
@@ -198,5 +197,6 @@ $('#back-to-top').click(function(){
 });
 
 </script>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259999548'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1259999548%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 </body>
 </html>

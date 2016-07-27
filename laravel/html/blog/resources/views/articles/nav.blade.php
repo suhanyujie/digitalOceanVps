@@ -20,6 +20,14 @@
                     <li>
                         <a href="http://tool.lu/">压缩/格式化</a>
                     </li>
+                    <li>
+                        <a href="http://tool.oschina.net/regex">在线正则</a>
+                    </li>
+                    <li>
+                        <a href="https://www.debuggex.com/">在线正则2</a> 
+                    </li>
+
+
                 </ul>
             </li>
             <li class="dropdown" >
