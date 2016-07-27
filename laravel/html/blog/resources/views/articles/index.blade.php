@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
 <title>爱生活-锲而不舍</title>
-<meta name="description"  content="苏汉宇的个人博客，分享一些所学技术，以及做一些个人兴趣爱好的展示。">
-<meta name="keywords"  content="">
+<meta name="keywords" content="亡命之徒|寻觅|苏汉宇|850099803" />
+<meta name="description" content="苏汉宇个人博客，是记录博主学习和成长,结束交流的一个自媒体博客。关注于web后端技术(PHP)和服务端编程的学习研究,同时喜欢前端工程化,喜欢Node,Vue,webPack等等..！" />
+<meta name="baidu-site-verification" content="B29FDA674B" />
+<meta http-equiv="Cache-Control" content="no-transform " />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="HandheldFriendly" content="True" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
