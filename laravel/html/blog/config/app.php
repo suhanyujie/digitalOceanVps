@@ -150,6 +150,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * suhy
+         */
+        Arcanedev\LogViewer\LogViewerServiceProvider::class,
+
     ],
 
     /*
